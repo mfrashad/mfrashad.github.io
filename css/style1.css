@@ -1,0 +1,62 @@
+#banner-main-text {
+    font-size:0.8em;
+}
+
+#banner-sub-text {
+    font-size:0.4em;
+    margin-bottom:10px;
+}
+#banner-border {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.body, html {
+    height:100%;
+  }
+
+
+.flex-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.flex-column{
+    flex-direction:column;
+}
+.wrap {
+    flex-wrap:wrap;
+}
+#social-media i,#social-media a:link {
+  font-size:0.8em;
+  margin:0.2em;
+  color:#222222;;
+}
+
+#social-media i:hover {
+  color: #52edc7;;
+}
+
+.fixed-nav-bar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+}
+
+.circle-flex {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.circle-content {
+    
+}
+
+.devicon {
+    display: block;
+    font-size:30px;
+    color:white;
+}
