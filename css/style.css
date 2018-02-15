@@ -1649,7 +1649,7 @@ h4.modal-title {
 	}
 	.title-w3ls h4, .w3ls-heading h3, .w3-gallery-head h3, .w3-about-head h3 {
     font-size: 3em;
-    color: #1d1b1b;
+    color: white;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
@@ -1679,7 +1679,7 @@ h4.modal-title {
     height:180px;
 	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
-    color: #1d1b1b;
+    color: white;
     cursor: pointer;
     display: inline-block;
     padding: 0px 18px 9px;
