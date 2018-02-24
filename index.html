@@ -1,9 +1,4 @@
-<!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---> 
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Head -->
@@ -16,6 +11,8 @@
 <!-- font-awesome icons -->
 <!--link rel="stylesheet" href="css/font-awesome.min.css" /-->
 <script src="https://use.fontawesome.com/a86eba96a4.js"></script>
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 <!-- //font-awesome icons -->
 <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
@@ -329,8 +326,71 @@
 			<h4>My Skills</h4>
 			<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
 		</div>
-		<div class="skills-bar">
-		<div class="col-md-6 w3-agile-skills-grid">
+		<div id="skills-icons" class="flex wrap text-center">
+			<div>
+					<i class="devicon-html5-plain-wordmark"></i>
+					<p>HTML5</p>
+			</div>
+			<div>
+					<i class="devicon-css3-plain-wordmark"></i>
+					<p>CSS3</p>
+			</div>
+			<div>
+					<i class="devicon-bootstrap-plain"></i>
+					<p>Bootstrap</p>
+			</div>
+			<div>
+					<i class="devicon-javascript-plain"></i>
+					<p>Javascript</p>
+			</div>
+			<div>
+					<i class="devicon-jquery-plain"></i>
+					<p>jQuery</p>
+			</div>
+			<div>
+					<i class="devicon-mongodb-plain"></i>
+					<p>MongoDB</p>
+			</div>
+			<div>
+					<i class="devicon-nodejs-plain-wordmark"></i>
+					<p>Node.js</p>
+			</div>
+			<div>
+					<i class="devicon-express-original-wordmark"></i>
+					<p>Express.js</p>
+			</div>
+			<div>
+					<i class="devicon-git-plain"></i>
+					<p>Git</p>
+			</div>
+			<div>
+					<i class="devicon-heroku-plain"></i>
+					<p>Heroku</p>
+			</div>
+			<div>
+					<i class="devicon-linux-plain"></i>
+					<p>Linux</p>
+			</div>
+			<div>
+					<i class="devicon-ubuntu-plain"></i>
+					<p>Ubuntu</p>
+			</div>
+			<div>
+					<i class="devicon-csharp-plain-wordmark"></i>
+					<p>C#</p>
+			</div>
+			<div>
+					<i class="devicon-java-plain"></i>
+					<p>Java</p>
+			</div>
+			<div>
+					<i class="devicon-photoshop-line"></i>
+					<p>Photoshop</p>
+			</div>
+			
+		</div>
+		<!--div class="skills-bar">
+			<div class="col-md-6 w3-agile-skills-grid">
 			<section class='bar'>
 				<section class='wrap'>
 					<div class='wrap_right'>
@@ -345,9 +405,9 @@
 					<div class="clearfix"></div>
 				</section>
 			</section>
-		</div>
-		<div class="col-md-6 w3-agile-skills-grid">
-			<section class='bar'>
+			</div>
+			<div class="col-md-6 w3-agile-skills-grid">
+				<section class='bar'>
 				<section class='wrap'>
 					<div class='wrap_right'>
 					  <div class='bar_group'>
@@ -358,10 +418,10 @@
 					</div>
 					<div class="clearfix"></div>
 				</section>
-			</section>
-		</div>
-		<div class="clearfix"></div>
-		</div>
+				</section>
+			</div>
+			<div class="clearfix"></div>
+		</div-->
 	</div>
 </div>
 <!-- //skills -->
@@ -406,7 +466,7 @@
 						
 					</div>
 				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1" data-sort="JS Calculator" style="opacity: 1; transform: scale(1) translate3d(760px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 6" data-sort="JS Calculator" style="opacity: 1; transform: scale(1) translate3d(760px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
 					<div class="jm-item-wrapper">
 						<div class="jm-item-image">
 							<img src="images/g3.jpg" alt="property" />
@@ -557,10 +617,10 @@
 					
 						<div class="ins-details">
 							<div class="ins-name">
-								<h3>Javascript Calculator</h3>
-								<p>This project is a simple calculator made with Javascript and Jquery</p>
+								<h3>Todo List Web App</h3>
+								<p>A To Do List Web Apps made with Mongodb, Express.js, Node.js, jQuery with Login features using Passport.js </p>
 								<div class="text-center">
-										<a target="_blank" href="https://mfrashad.github.io/jsCalculator/"><button class="modal-btn">View project</button></a>
+										<a target="_blank" href="https://mfrashad-todo-app.herokuapp.com/"><button class="modal-btn">View project</button></a>
 								</div>
 							</div>
 							
@@ -579,10 +639,10 @@
 					
 						<div class=" ins-details">
 							<div class="ins-name">
-								<h3>Get Local Weather</h3>
-								<p>Project made for FreeCodeCamp using its weather API with objective of learning API requests with vanilla Javascript and HTML5 Geolocation feature</p>
+								<h3>Javascript Calculator</h3>
+								<p>This project is a simple calculator made with Javascript and Jquery</p>
 								<div class="text-center">
-									<a target="_blank" href="https://mfrashad.github.io/get-local-weather/"><button class="modal-btn">View project</button></a>
+										<a target="_blank" href="https://mfrashad.github.io/jsCalculator/"><button class="modal-btn">View project</button></a>
 								</div>
 							</div>
 							
@@ -716,7 +776,7 @@
 </script>
 
 <!-- contact -->
-	 <div class="contact" id="contact">
+	 <!--div class="contact" id="contact">
 	<div class="container">
 		<div class="w3ls-heading">
 			<h3>Contact me</h3>
@@ -727,7 +787,7 @@
 						<input type="text" name="First Name" placeholder="Name" required="">
 						<input type="email"  class="email" name="Email" placeholder="Email" required="">
 						<input type="text" name="Number" placeholder="Mobile Number">
-						<!-- <input type="text" class="email" name="Last Name" placeholder="Last Name" required=""> -->
+						<!-- <input type="text" class="email" name="Last Name" placeholder="Last Name" required=""> >
 					</div> 
 					<div class="col-md-5 col-sm-5 contact-right agileits-w3layouts">
 						<textarea name="Message" placeholder="Message" required=""></textarea>
@@ -738,7 +798,7 @@
 			</div>  
 
 	</div>
-</div>
+</div-->
 <!-- //contact -->
 <!-- footer -->
 	<div class="w3l_footer">

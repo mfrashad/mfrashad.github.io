@@ -61,3 +61,21 @@
 #social-media i:hover {
   color: white;
 }
+
+.flex{
+    display:flex;
+}
+
+#skills-icons i{
+    font-size: 6em;
+    margin:20px;
+}
+
+#skills-icons p {
+    font-size:1.5em;
+}
+
+#skills-icons {
+    margin:10px;
+    color:white;
+}
