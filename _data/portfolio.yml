@@ -1,0 +1,35 @@
+categories:
+  - name: WEB
+    class_name: web
+  - name: GAME
+    class_name: game
+  - name: DESIGN
+    class_name: design
+  - name: ELECTRONICS
+    class_name: electronic
+
+projects:
+  - id: dot_hit
+    name: Dot Hit!
+    summary: Unity3D
+    description: Dot Hit is an 2D android game developed with Unity3D Game Engine using C# language. The game is available on Playstore
+    category: game
+    pictures: 1
+  - id: cube_runner
+    name: Cube Runner
+    summary: Unity3D
+    description: Cube Runner is a 3D android game developed with Unity3D game engine using C# language
+    category: game
+    pictures: 1
+  - id: todo_app
+    name: Todo App
+    summary: MongoDB + Express.js + React.js + Node.js
+    description: A To Do List Web Apps made with Mongodb, Express.js, React.js and Node.js with Login features using Passport.js. This project was done to learn React
+    category: web
+    pictures: 1
+  - id: calculator
+    name: Calculator
+    summary: Javascript + jQuery
+    description: This project is a simple calculator made with Javascript and Jquery. A project made for FreeCodeCamp
+    category: web
+    pictures: 1

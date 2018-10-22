@@ -1,0 +1,47 @@
+<section class="flex" id="portfolio">
+
+  <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
+  <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+  <div class="filter-wrap waypoint" data-animation="fade-in">
+    <div class="flex row">
+      <div class="filter" data-filter="all">ALL</div>
+      {% for category in site.data.portfolio.categories %}
+        <div class="filter" data-filter=".{{category.class_name}}">{{category.name}}</div>
+      {% endfor %}
+    </div>
+    <div class="float-bar">
+      <div class="flex row">
+        <div class="filter" data-filter="all">ALL</div>
+        {% for category in site.data.portfolio.categories %}
+          <div class="filter" data-filter=".{{category.class_name}}">{{category.name}}</div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div id="gallery" class="container flex row wrap waypoint">
+    {% for project in site.data.portfolio.projects %}
+      <div class="mix {{project.category}}" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">{{project.name}}</div>
+            <span class="highlight">{{project.summary}}</span>
+          </div>
+          <div class="button" id="{{project.id}}">LEARN MORE</div>
+        </div>
+      </div>
+    {% endfor %}
+    <div class="mix node" data-my-order="1">
+      <div>
+        <div class="card"></div>
+        <div class="text">
+          <div class="bold">The Mall</div>
+          <span class="highlight">Node + React.js</span>
+        </div>
+        <div class="button" id="themall">LEARN MORE</div>
+      </div>
+    </div>
+  </div>
+</section>

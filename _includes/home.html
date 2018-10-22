@@ -1,0 +1,18 @@
+{% include modal.html %}
+
+<section id="home" class="flex height-fix">
+  <div id="pt" class="canvas"></div>
+  <div class="flex">
+
+    <div class="text">
+      Hello, I'm <span class="highlight">{{site.data.person.name}}</span>.
+      <br>
+      {{site.data.person.description}}
+    </div>
+
+    <div class="button page-link" dest="about">View my work <i class="mdi mdi-arrow-right"></i></div>
+
+    {% include navigation.html %}
+  </div>
+
+</section>

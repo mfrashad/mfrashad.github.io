@@ -1,0 +1,21 @@
+<div class="skills-wrapper flex row-gt-sm">
+  <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+    <img src="img/me.png" class="me">
+    <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+    <div class="label bold">Who's this guy?</div>
+    <div>
+      <p>{{site.data.person.about}}</p>
+    </div>
+  </div>
+
+  <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
+    {% for skill in site.data.person.skills %}
+      <div class="bar flex">
+        <div class="bar fill" style="width:{{skill.width}};">
+          <div class="tag bold flex">{{skill.name}}</div>
+        </div>
+        <span>{{skill.level}}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,56 @@
+name: Rashad
+description: I'm a ful-stack web developer.
+
+about_features:
+  - name: Electronics
+    description: C/C++, Python, Arduino, Raspberry Pi
+    icon_class: mdi mdi-speedometer
+  - name: Web Development
+    description: Node.js, Express.js, Ruby on Rails
+    icon_class: mdi mdi-cellphone-link
+  - name: Graphic Design
+    description: Photoshop & Illustrator
+    icon_class: mdi mdi-lightbulb-outline
+  - name: Game Development
+    description: Unity3D
+    icon_class: mdi mdi-rocket
+
+about: "I'm a 17 years old computer engineering student <br> with a serious passion for programming"
+
+skills:
+  - name: HTML
+    width: 80%
+    level: 80%
+  - name: CSS
+    width: 80%
+    level: 80%
+  - name: Javascript
+    width: 80%
+    level: 80%
+  - name: React
+    width: 30%
+    level: 30%
+  - name: Node.js
+    width: 40%
+    level: 40%
+  - name: Ruby/Rails
+    width: 60%
+    level: 60%
+  - name: Git
+    width: 50%
+    level: 50%
+  - name: C#/Unity3D
+    width: 40%
+    level: 40%
+  - name: SQL
+    width: 50%
+    level: 50%
+  - name: Linux/Unix
+    width: 40%
+    level: 40%
+  - name: C/C++
+    width: 40%
+    level: 40%
+  - name: Photoshop
+    width: 60%
+    level: 60%
