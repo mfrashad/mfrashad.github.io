@@ -8,7 +8,7 @@ $(document).ready(function(){
       {{project.id}}: {
         title: '{{project.name}}',
         tag: '{{project.category}}',
-        detail: '{{project.description}}',
+        detail: "{{project.description}}",
         pictures: '{{project.pictures}}'
       },
     {% endfor %}
@@ -85,7 +85,7 @@ $(document).ready(function(){
 
   function fillModal(id) {
     $('#modal .title').text(modalText[id].title);
-    $('#modal .detail').text(modalText[id].detail);
+    $('#modal .detail').html(modalText[id].detail);
     $('#modal .tag').text(modalText[id].tag.toUpperCase());
     if (modalText[id].link) $('#modal .button').addClass('visible')
                                                .parent()
@@ -99,6 +99,7 @@ $(document).ready(function(){
     for(i=0; i<modalText[id].pictures;i++) {
       $('#modal #carousel').append(
         $("<div class='slide'></div>").css({
+          width: '700px',
           background: "url('img/slides/" + id + '-' + i + ".jpg') center center/cover",
           backgroundSize: 'cover'
         })

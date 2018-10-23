@@ -4,16 +4,16 @@ description: I'm a ful-stack web developer.
 about_features:
   - name: Electronics
     description: C/C++, Python, Arduino, Raspberry Pi
-    icon_class: mdi mdi-speedometer
+    icon_class: mdi mdi-memory
   - name: Web Development
     description: Node.js, Express.js, Ruby on Rails
     icon_class: mdi mdi-cellphone-link
   - name: Graphic Design
     description: Photoshop & Illustrator
-    icon_class: mdi mdi-lightbulb-outline
+    icon_class: mdi mdi-brush
   - name: Game Development
     description: Unity3D
-    icon_class: mdi mdi-rocket
+    icon_class: mdi mdi-gamepad-variant
 
 about: "I'm a 17 years old computer engineering student <br> with a serious passion for programming"
 

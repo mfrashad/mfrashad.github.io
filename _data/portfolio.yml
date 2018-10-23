@@ -14,22 +14,48 @@ projects:
     summary: Unity3D
     description: Dot Hit is an 2D android game developed with Unity3D Game Engine using C# language. The game is available on Playstore
     category: game
-    pictures: 1
+    pictures: 2
   - id: cube_runner
     name: Cube Runner
     summary: Unity3D
     description: Cube Runner is a 3D android game developed with Unity3D game engine using C# language
     category: game
-    pictures: 1
+    pictures: 2
   - id: todo_app
     name: Todo App
     summary: MongoDB + Express.js + React.js + Node.js
     description: A To Do List Web Apps made with Mongodb, Express.js, React.js and Node.js with Login features using Passport.js. This project was done to learn React
     category: web
-    pictures: 1
+    pictures: 2
   - id: calculator
     name: Calculator
     summary: Javascript + jQuery
     description: This project is a simple calculator made with Javascript and Jquery. A project made for FreeCodeCamp
     category: web
-    pictures: 1
+    pictures: 2
+  - id: quote_generator
+    name: Quote Generator
+    summary: Vanilla Javascript
+    description: A site which generates a random quote fetched by API call made for FreeCodeCamp
+    pictures: 2
+  - id: wikipedia_viewer
+    name: Wikipedia Viewer
+    summary: Javascript + jQuery
+    description: Project made for FreeCodeCamp using Wikipedia API
+    pictures: 2
+  - id: twitchtv
+    name: TwitchTV Online Tracker
+    summary: Javascript + jQuery
+    description: Project made for FreeCodeCamp using TwitchTv JSON API
+    pictures: 2
+  - id: url_shortener
+    name: URL Shortener Microservice
+    summary: MongoDB + Express.js + + Node.js
+    description: An API made with Express.js, Node.js and MongoDB that returns shortened URL in JSON format and hosted in Heroku.
+    pictures: 2
+  - id: istaid
+    name: Istaid Center Website
+    summary: Rails + Postgresql + AWS EC2
+    description: An non-profit organization website made with Ruby on Rails. Built with customized CMS (Content Management System) made from scratch using Postgresql as the database<br><br> Technologies Used:<br> • Materialize - CSS Framework<br> • Rails - Backend Framework<br> • Postgresql - Database<br> • Amazon EC2 - Hosting Server<br> • Cloudinary - Image Hosting<br>
+    pictures: 2 
+

@@ -566,30 +566,6 @@ section {
         section:nth-of-type(3) #gallery .mix .button:hover {
           background: #E31B6D;
           color: #fff; }
-        section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-          background: url("../img/thumb-1.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-          background: url("../img/thumb-2.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-          background: url("../img/thumb-3.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-          background: url("../img/thumb-4.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-          background: url("../img/thumb-5.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-          background: url("../img/thumb-6.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-          background: url("http://findmatthew.com//img/thumb-7.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-          background: url("http://findmatthew.com//img/thumb-8.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-          background: url("http://findmatthew.com//img/thumb-9.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-          background: url("http://findmatthew.com//img/thumb-10.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-          background: url("http://findmatthew.com//img/thumb-11.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-          background: url("http://findmatthew.com//img/thumb-12.jpg") center center/cover; }
         section:nth-of-type(3) #gallery .mix .card {
           height: 240px;
           max-width: 100%;
