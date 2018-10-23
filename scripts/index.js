@@ -13,7 +13,8 @@ $(function() {
 
   // RESIZE RESETS
   $(window).resize(function(){
-    posFilterBar($('.filter').first());
+    posFilterBar($('.filter1').first());
+    posFilterBar($('.filter2').first())
   });
 
   // Sticky Nav on Mobile
@@ -49,6 +50,7 @@ $(function() {
     if (pos2 > $('#home').offset().top)       { highlightLink('home'); }
     if (pos2 > $('#about').offset().top)      { highlightLink('about'); }
     if (pos2 > $('#portfolio').offset().top)  { highlightLink('portfolio'); }
+    if (pos2 > $('#experience').offset().top)  { highlightLink('experience'); }
     if (pos2 > $('#blog').offset().top)       { highlightLink('blog'); }
     if (pos2 > $('#contact').offset().top ||
         pos + $(window).height() === $(document).height()) {
@@ -97,7 +99,8 @@ $(function() {
     $('.blog-wrap').removeClass('fade');
   });
 
-  posFilterBar($('.filter').first());
+  posFilterBar($('.filter1').first());
+  posFilterBar($('.filter2').first())
 
   $('.filter').click(function(){
     posFilterBar(this);
@@ -106,18 +109,23 @@ $(function() {
   function posFilterBar(elem) {
     var origin = $(elem).parent().offset().left;
     var pos = $(elem).offset().left;
-    $('.float-bar').css({
+    $(elem).closest('.filter-wrap').find('.float-bar').css({
       left: pos - origin,
       width: $(elem).innerWidth()
     });
-    $('.float-bar .row').css('left', (pos - origin) * -1);
+    $(elem).closest('.filter-wrap').find('.float-bar .row').css('left', (pos - origin) * -1);
   }
 
   // GALLERY
-  $('#gallery').mixItUp({ });
+  $('#portfolio .gallery').mixItUp({
+    selectors: {filter: '.filter1'}
+   });
+  $('#experience .gallery').mixItUp({
+    selectors: {filter: '.filter2'}
+   });
 
   function mixClear() {
-    setTimeout(function() { $('#gallery').removeClass('waypoint') }, 2000);
+    setTimeout(function() { $('.gallery').removeClass('waypoint') }, 2000);
   }
 
   // SCROLL ANIMATIONS
@@ -138,7 +146,7 @@ $(function() {
 
           trigger.waypoint(function() {
             elem.addClass('animated').addClass(animationClass);
-            if (elem.get(0).id === 'gallery') mixClear(); //OPTIONAL
+            if (elem.hasClass('gallery')) mixClear(); //OPTIONAL
             },{
                 triggerOnce: true,
                 offset: offset

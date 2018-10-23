@@ -50,7 +50,7 @@ projects:
     pictures: 2
   - id: url_shortener
     name: URL Shortener Microservice
-    summary: MongoDB + Express.js + + Node.js
+    summary: MongoDB + Express.js + Node.js
     description: An API made with Express.js, Node.js and MongoDB that returns shortened URL in JSON format and hosted in Heroku.
     pictures: 2
   - id: istaid

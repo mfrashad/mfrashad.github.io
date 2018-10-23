@@ -12,9 +12,17 @@ $(document).ready(function(){
         pictures: '{{project.pictures}}'
       },
     {% endfor %}
+    {% for project in site.data.experience.projects %}
+      {{project.id}}: {
+        title: '{{project.name}}',
+        tag: '{{project.category}}',
+        detail: "{{project.description}}",
+        pictures: '{{project.pictures}}'
+      },
+    {% endfor %}
   };
 
-  $('#gallery .button').on('click', function(){
+  $('.gallery .button').on('click', function(){
     fillModal(this.id);
     $('.modal-wrap').addClass('visible');
   });

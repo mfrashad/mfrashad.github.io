@@ -1,0 +1,45 @@
+categories:
+  - name: WORK
+    class_name: work
+  - name: EVENT
+    class_name: event
+  - name: COMPETITION
+    class_name: competition
+
+projects:
+  - id: fave
+    name: Fave Internship
+    summary: Software Engineer Intern (Backend Team)
+    description: I interned as Software Engineer in Fave a fintech startup in Malaysia. I was placed in Merchant Team which mostly deal with backend related to our Merchant (Business Partner who uses Fave).
+    category: work
+    pictures: 5
+  - id: robocon18
+    name: Robocon 2018
+    summary: Top 16 Team in Malaysia (Main Programmer)
+    description: I participated in Robocon 2018 Malaysia along as Petrobot (Robotic Society in my university) member as the Main Programmer in the team.
+    category: competition
+    pictures: 5
+  - id: rpi_workshop
+    name: Raspberry Pi Workshop
+    summary: Mentor + Speaker
+    description: The workshop aim to introduce Raspberry Pi to the students in our university. We guided them from installation and setup to the final result which is an LED controlled telegram bot.
+    category: event
+    pictures: 7
+  - id: cyhi
+    name: Can You Hack It Hackathon 2018
+    summary: Participant
+    description: Can You Hack It is a 24-hour hackathon about the future of banking
+    category: competition
+    pictures: 7
+  - id: iarc
+    name: International Advanced Robotic Competition
+    summary: Technical & Media Committee
+    description: A robotic competition held on Universiti Teknologi Petronas. My task covered banner design, poster design, prompter and managing the projector during the event.
+    category: event
+    pictures: 8
+  - id: sedex
+    name: Science & Engineering Design Exhibition 40 (SEDEX 40)
+    summary: Promotion & Publication Committee
+    description: SEDEX is a competition which are mostly for students who are doing their Final Year Project as well as Engineering Team Project. However any studens are still welcome to join. My task are mostly design such as poster design, certificate, etc.
+    category: event
+    pictures: 8 

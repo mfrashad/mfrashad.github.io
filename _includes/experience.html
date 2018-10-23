@@ -1,27 +1,27 @@
-<section class="flex" id="portfolio">
+<section class="flex" id="experience">
 
-  <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
+  <div class="header waypoint" data-animation="slide-in-right">EXPERIENCE</div>
   <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
 
   <div class="filter-wrap waypoint" data-animation="fade-in">
     <div class="flex row">
-      <div class="filter filter1" data-filter="all">ALL</div>
-      {% for category in site.data.portfolio.categories %}
-        <div class="filter filter1" data-filter=".{{category.class_name}}">{{category.name}}</div>
+      <div class="filter filter2" data-filter="all">ALL</div>
+      {% for category in site.data.experience.categories %}
+        <div class="filter filter2" data-filter=".{{category.class_name}}">{{category.name}}</div>
       {% endfor %}
     </div>
     <div class="float-bar">
       <div class="flex row">
-        <div class="filter filter1" data-filter="all">ALL</div>
-        {% for category in site.data.portfolio.categories %}
-          <div class="filter filter1" data-filter=".{{category.class_name}}">{{category.name}}</div>
+        <div class="filter filter2" data-filter="all">ALL</div>
+        {% for category in site.data.experience.categories %}
+          <div class="filter filter2" data-filter=".{{category.class_name}}">{{category.name}}</div>
         {% endfor %}
       </div>
     </div>
   </div>
 
   <div class="gallery container flex row wrap waypoint">
-    {% for project in site.data.portfolio.projects %}
+    {% for project in site.data.experience.projects %}
       <div class="mix {{project.category}}" data-my-order="1">
         <div>
           <div class="card" style="background: url('../img/thumb-{{project.id}}.jpg') center center/cover;"></div>
