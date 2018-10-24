@@ -9,7 +9,8 @@ $(document).ready(function(){
         title: '{{project.name}}',
         tag: '{{project.category}}',
         detail: "{{project.description}}",
-        pictures: '{{project.pictures}}'
+        pictures: '{{project.pictures}}',
+        link: '{{project.link}}'
       },
     {% endfor %}
     {% for project in site.data.experience.projects %}
@@ -17,7 +18,8 @@ $(document).ready(function(){
         title: '{{project.name}}',
         tag: '{{project.category}}',
         detail: "{{project.description}}",
-        pictures: '{{project.pictures}}'
+        pictures: '{{project.pictures}}',
+        link: '{{project.link}}'
       },
     {% endfor %}
   };
@@ -107,7 +109,7 @@ $(document).ready(function(){
     for(i=0; i<modalText[id].pictures;i++) {
       $('#modal #carousel').append(
         $("<div class='slide'></div>").css({
-          width: '700px',
+          width: $('.carousel-wrap').css('width'),
           background: "url('img/slides/" + id + '-' + i + ".jpg') center center/cover",
           backgroundSize: 'cover'
         })

@@ -1,0 +1,21 @@
+<section id="testimonials">
+  <div class="container flex">
+
+    <div class="header waypoint" data-animation="slide-in-left">TESTIMONIALS</div>
+    <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+    <div class="flex row wrap waypoint" data-animation="slide-in-left">
+      <div class="flex row-gt-sm">
+        {% for testimonial in site.data.testimonials %}
+        <div class="testimonials-carousel">
+          <div class="testimonial-block"><img class="avatar" src="img/testimonial-{{forloop.index0}}.jpg">
+            <blockquote>{{testimonial.text}}</blockquote>
+            <div class="label bold">{{testimonial.name}}</div>
+            <p>{{testimonial.position}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
