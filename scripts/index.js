@@ -158,6 +158,8 @@ $(function() {
 
   // CONTACT FORM
   $('#contact-form').submit(function(e) {
+    $('#success').addClass('expand');
+    /*
     e.preventDefault();
       $.ajax({
           url: "https://formspree.io/m.fathyrashad@gmail.com",
@@ -168,6 +170,7 @@ $(function() {
           $('#success').addClass('expand');
           $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
       });
+      */
   });
 
   $('#close').click(function() {
