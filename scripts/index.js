@@ -159,7 +159,6 @@ $(function() {
   // CONTACT FORM
   $('#contact-form').submit(function(e) {
     e.preventDefault();
-
       $.ajax({
           url: "https://formspree.io/m.fathyrashad@gmail.com",
           method: "POST",
