@@ -12,14 +12,29 @@ projects:
   - id: dot_hit
     name: Dot Hit!
     summary: Unity3D
-    description: Dot Hit is an 2D android game developed with Unity3D Game Engine using C# language. The game is available on Playstore
+    description: 
+      "Dot Hit is an 2D android game developed with Unity3D Game Engine. The game is available on Playstore<br>
+      <br>
+      What I learned:<br>
+      - Improved my skills in photoshop<br>
+      - Improved my skills in Unity3D<br>
+      - Improved my skills in C#<br>"
     category: game
     pictures: 3
     link: https://play.google.com/store/apps/details?id=com.RashadProduction.Dot&hl=en
   - id: cube_runner
     name: Cube Runner
     summary: Unity3D
-    description: Cube Runner is a 3D android game developed with Unity3D game engine using C# language
+    description: 
+      "Cube Runner is a 3D android game developed with Unity3D game engine. It is an arcade endless runner game. It is available in playstore and have reached 1K+ installs.<br>
+      <br>
+      What I learned:<br>
+      - Design Pattern (Singleton, Object Pool, Factory) <br>
+      - Unity3D<br>
+      - C#<br>
+      - Graphic Design (Photoshop)<br>
+      - Sound Editing (Audacity)<br>
+      - Copywriting (Game description in Playstore)<br>"
     category: game
     pictures: 5
     link: https://play.google.com/store/apps/details?id=com.RashadProduction.CubeRunner&hl=en

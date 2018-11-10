@@ -10,13 +10,30 @@ projects:
   - id: fave
     name: Fave Internship
     summary: Software Engineer Intern (Backend Team)
-    description: I interned as Software Engineer in Fave a fintech startup in Malaysia. I was placed in Merchant Team which mostly deal with backend related to our Merchant (Business Partner who uses Fave).
+    description: 
+      "I interned as Software Engineer in Fave, a fintech startup in Malaysia. I was placed in Merchant Team which mostly deal with backend tasks related to Merchants (Business Partner who uses Fave).<br>
+      <br>
+      What I did:<br>
+      - Learned to use various tool such as CircleCI, Jira, Sentry<br>
+      - Refactored part of code base<br>
+      - Wrote Unit Test<br>
+      - Tracked and fixed bugs using sentry<br>
+      - Designed new feature for Admin Tool used by Operation Team<br>
+      - Automated PDF report generation and emailing.<br>
+      - Practiced Agile Methodologies<br>"
     category: work
     pictures: 5
   - id: robocon18
     name: Robocon 2018
     summary: Top 16 Team in Malaysia (Main Programmer)
-    description: I participated in Robocon 2018 Malaysia along as Petrobot (Robotic Society in my university) member as the Main Programmer in the team.
+    description: 
+      "I participated in Robocon 2018 Malaysia along as Petrobot (Robotic Society in my university) member as the Main Programmer in the team.<br>
+      <br>
+      What I did:<br>
+      - Coded autonomous line following algorithm with PID control<br>
+      - Integrated the code to work with mecanum wheel<br>
+      - Integrated the code for pressure controller (throwing mechanism)<br>
+      - Coded positioning algorithm to recieve passed ball accurately"
     category: competition
     pictures: 5
   - id: rpi_workshop
@@ -36,10 +53,10 @@ projects:
     summary: Technical & Media Committee
     description: A robotic competition held on Universiti Teknologi Petronas. My task covered banner design, poster design, prompter and managing the projector during the event.
     category: event
-    pictures: 8
+    pictures: 7
   - id: sedex
     name: Science & Engineering Design Exhibition 40 (SEDEX 40)
     summary: Promotion & Publication Committee
-    description: SEDEX is a competition which are mostly for students who are doing their Final Year Project as well as Engineering Team Project. However any studens are still welcome to join. My task are mostly design such as poster design, certificate, etc.
+    description: SEDEX is a competition which are mostly for students who are doing their Final Year Project as well as Engineering Team Project. However any studenst are still welcome to join. My task are mostly design such as poster design, certificate, souvenir design etc.
     category: event
     pictures: 8 
