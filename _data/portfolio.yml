@@ -6,7 +6,7 @@ categories:
   - name: DESIGN
     class_name: design
   - name: ELECTRONICS
-    class_name: electronic
+    class_name: electronics
 
 projects:
   - id: dot_hit
@@ -87,4 +87,17 @@ projects:
     category: web
     pictures: 2 
     link: https://mfrashad.github.io/istaidcenter.com
+  - id: robocon_robot
+    name: Autonomous Line Following Catapult (Robocon)
+    summary: Arduino + C++
+    description: 
+      "A robot that will be passed a ball and throws the ball to enter 3 tall hoop with different height from a distance. The robot will navigate using white line provided on the the field. This robot was made for Robocon Malaysia 2018 Competition. I am mostly responsible for the code while the robot mechanic and circuitry was mostly done by other team member.<br>
+      <br>
+      What I did:<br>
+      - Coded autonomous line following algorithm with PID control<br>
+      - Integrated the code to work with mecanum wheel<br>
+      - Integrated the code for pressure controller (throwing mechanism)<br>
+      - Coded positioning algorithm to recieve passed ball accurately"
+    category: electronics
+    pictures: 6 
 

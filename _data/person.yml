@@ -34,8 +34,8 @@ skills:
     width: 60%
     level: 60%
   - name: Git
-    width: 50%
-    level: 50%
+    width: 60%
+    level: 60%
   - name: C#/Unity3D
     width: 40%
     level: 40%
@@ -44,7 +44,7 @@ skills:
     level: 50%
   - name: Linux/Unix
     width: 60%
-    level: 40%
+    level: 60%
   - name: C/C++
     width: 40%
     level: 40%
