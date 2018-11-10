@@ -18,10 +18,7 @@ about_features:
 about: "I'm a 17 years old computer engineering student <br> with a serious passion for programming"
 
 skills:
-  - name: HTML
-    width: 80%
-    level: 80%
-  - name: CSS
+  - name: HTML/CSS
     width: 80%
     level: 80%
   - name: Javascript
@@ -46,7 +43,7 @@ skills:
     width: 50%
     level: 50%
   - name: Linux/Unix
-    width: 40%
+    width: 60%
     level: 40%
   - name: C/C++
     width: 40%
