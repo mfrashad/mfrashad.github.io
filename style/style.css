@@ -475,6 +475,8 @@ section {
       transition: 1.9s 0.2s width ease-in-out; }
     #about .bar:nth-child(10) .fill {
       transition: 2s 0.2s width ease-in-out; }
+    #about .bar:nth-child(11) .fill {
+      transition: 2.1s 0.2s width ease-in-out; }
     #about .bar span {
       display: none; }
     #about .bar.fill {
@@ -998,6 +1000,24 @@ footer {
     .animated.waypoint.gallery .mix:nth-child(6) > div {
       opacity: 0;
       animation: slideUp 0.75s 0.6s ease both; }
+    .animated.waypoint.gallery .mix:nth-child(7) > div {
+      opacity: 0;
+      animation: slideUp 0.75s 0.7s ease both; }
+    .animated.waypoint.gallery .mix:nth-child(8) > div {
+      opacity: 0;
+      animation: slideUp 0.75s 0.8s ease both; }
+    .animated.waypoint.gallery .mix:nth-child(9) > div {
+      opacity: 0;
+      animation: slideUp 0.75s 0.9s ease both; }
+    .animated.waypoint.gallery .mix:nth-child(10) > div {
+      opacity: 0;
+      animation: slideUp 0.75s 0.10s ease both; }
+    .animated.waypoint.gallery .mix:nth-child(11) > div {
+      opacity: 0;
+      animation: slideUp 0.75s 0.11s ease both; }
+    .animated.waypoint.gallery .mix:nth-child(12) > div {
+      opacity: 0;
+      animation: slideUp 0.75s 0.12s ease both; }
 
   .animated.slide-up {
     animation: slideUp .75s ease both; }
