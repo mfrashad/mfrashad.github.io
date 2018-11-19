@@ -865,9 +865,12 @@ footer {
     font-size: 25pt !important; }
 
   .modal-wrap .modal {
-    top: -6vh;
+    top: 0vh;
+    overflow-y: auto;
     height: initial; }
   .modal-wrap .info-box {
+    overflow-y: auto;
+    height: 300px;
     padding: 35px 60px 90px 25px; }
   .modal-wrap .title {
     font-size: 22pt;
@@ -879,9 +882,13 @@ footer {
     line-height: 18pt;
     margin-top: 15px; }
   .modal-wrap .close {
+    position: relative;
+    float: right;
     right: 25px; }
   .modal-wrap .button {
-    left: 25px; }
+    position: relative;
+    float: left;
+    top: 25px; }
 
   nav .link-wrap {
     position: initial;

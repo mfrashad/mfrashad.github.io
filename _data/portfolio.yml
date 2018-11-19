@@ -85,7 +85,7 @@ projects:
     summary: Rails + Postgresql + AWS EC2
     description: An non-profit organization website made with Ruby on Rails. Built with customized CMS (Content Management System) made from scratch using Postgresql as the database<br><br> Technologies Used:<br> • Materialize - CSS Framework<br> • Rails - Backend Framework<br> • Postgresql - Database<br> • Amazon EC2 - Hosting Server<br> • Cloudinary - Image Hosting<br>
     category: web
-    pictures: 2 
+    pictures: 2
     link: https://mfrashad.github.io/istaidcenter.com
   - id: robocon_robot
     name: Autonomous Line Following Catapult (Robocon)
@@ -99,5 +99,23 @@ projects:
       - Integrated the code for pressure controller (throwing mechanism)<br>
       - Coded positioning algorithm to recieve passed ball accurately"
     category: electronics
-    pictures: 6 
+    pictures: 6
+  - id: childpro_design
+    name: Children Provision Charity Poster Design
+    summary: Photoshop + Poster
+    description: 
+      "These are posters that I designed when I voluteered in Children Provision Charity Event as Assistant Head of Technical & Design Department<br>
+      <br>
+      Disclaimer: I did not create any artworks present, I manipulated/modified/combined it to make the poster."
+    category: design
+    pictures: 3
+  - id: iarc_design
+    name: Internation Advanced Robotic Competition Design
+    summary: Photoshop + Banner + Poster
+    description: 
+      "These are posters that I designed when I voluteered in Children Provision Charity Event as Assistant Head of Technical & Design Department<br>
+      <br>
+      Disclaimer: I did not create any artworks present, I manipulated/modified/combined it to make the poster."
+    category: design
+    pictures: 3
 
