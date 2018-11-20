@@ -86,7 +86,7 @@ projects:
     description: An non-profit organization website made with Ruby on Rails. Built with customized CMS (Content Management System) made from scratch using Postgresql as the database<br><br> Technologies Used:<br> • Materialize - CSS Framework<br> • Rails - Backend Framework<br> • Postgresql - Database<br> • Amazon EC2 - Hosting Server<br> • Cloudinary - Image Hosting<br>
     category: web
     pictures: 3
-    link: https://mfrashad.github.io/istaidcenter.com
+    link: https://www.istaidcenter.com
   - id: robocon_robot
     name: Autonomous Line Following Catapult (Robocon)
     summary: Arduino + C++
@@ -113,7 +113,7 @@ projects:
     name: International Advanced Robotic Competition Design
     summary: Photoshop + Banner + Poster
     description: 
-      "These are posters that I designed when I voluteered in Children Provision Charity Event as Assistant Head of Technical & Design Department<br>
+      "These are posters that I designed when I voluteered as Technical & Media Committee  in International Advanced Robotic Competition 2018<br>
       <br>
       Disclaimer: I did not create any artworks present, I manipulated/modified/combined it to make the poster."
     category: design
