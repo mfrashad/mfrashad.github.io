@@ -59,13 +59,20 @@ projects:
     category: web
     pictures: 3
     link: https://mfrashad.github.io/quote-generator/
-  - id: wikipedia_viewer
-    name: Wikipedia Viewer
-    summary: Javascript + jQuery
-    description: Project made for FreeCodeCamp using Wikipedia API
+  # - id: wikipedia_viewer
+  #   name: Wikipedia Viewer
+  #   summary: Javascript + jQuery
+  #   description: Project made for FreeCodeCamp using Wikipedia API
+  #   category: web
+  #   pictures: 3
+  #   link: https://mfrashad.github.io/wikipedia-viewer/
+  - id: merchant_portal
+    name: Merchant Portal
+    summary: Rails + Postgresql
+    description: A merchant portal developen during Can You Hack It Hackathon 2018 for CashBear app
     category: web
     pictures: 3
-    link: https://mfrashad.github.io/wikipedia-viewer/
+    link: https://mfrashad-merchant-portal.herokuapp.com
   - id: twitchtv
     name: TwitchTV Online Tracker
     summary: Javascript + jQuery
