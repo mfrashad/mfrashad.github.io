@@ -15,7 +15,7 @@ about_features:
     description: Unity3D
     icon_class: mdi mdi-gamepad-variant
 
-about: "I'm a 17 years old computer engineering student <br> with a serious passion for programming"
+about: "I'm an 18 years old computer engineering student <br> with a serious passion for programming"
 
 skills:
   - name: HTML/CSS
@@ -46,8 +46,8 @@ skills:
     width: 60%
     level: 60%
   - name: C/C++
-    width: 40%
-    level: 40%
+    width: 60%
+    level: 60%
   - name: Photoshop
     width: 60%
     level: 60%
