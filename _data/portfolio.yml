@@ -48,7 +48,7 @@ projects:
   - id: bustime
     name: Bustime
     summary: React Native + Node.js
-    description: Bustime is an app to track real-time location of public buses and predict their time of arrival made during 3 Days of Code Hackathon, the project consist of 2 apps. The first is Driver App for the bus driver to use which will track the bus location and the second is the user app which display the location, route and predicted time arrival of the bus to the user. Technology used are React Native as the mobile front-end and Node.js as the backend.
+    description: Bustime is an app to track real-time location of public buses and predict their time of arrival made during 3 Days of Code Hackathon. The project consist of 2 apps, the first is Driver App for the bus driver to use which will track the bus location and the second is the user app which display the location, route and predicted time arrival of the bus to the user. Technology used are React Native as the mobile front-end and Node.js as the backend.
     category: web
     pictures: 4
   - id: quote_generator
