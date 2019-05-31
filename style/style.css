@@ -243,6 +243,12 @@ nav {
     top: 0; }
   nav .active {
     color: #E31B6D; }
+  nav .logo {
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    font-size: 14pt;
+  }
 
 .carousel-wrap {
   position: relative;
@@ -909,6 +915,9 @@ footer {
         padding: 0; }
   nav .mdi-menu {
     display: none; }
+  nav .logo {
+    display: none;
+  }
 
   section {
     line-height: 18pt;
