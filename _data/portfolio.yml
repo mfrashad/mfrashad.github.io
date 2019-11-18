@@ -1,14 +1,52 @@
 categories:
   - name: WEB
     class_name: web
-  - name: GAME
-    class_name: game
+  - name: MOBILE
+    class_name: mobile
   - name: DESIGN
     class_name: design
   - name: ELECTRONICS
     class_name: electronics
 
 projects:
+  - id: bustime
+    name: Bustime
+    summary: React Native + Firebase
+    description: Bustime is an app to track real-time location of public buses and predict their time of arrival made during 3 Days of Code Hackathon. The project consist of 2 apps, the first is Driver App for the bus driver to use which will track the bus location and the second is the user app which display the location, route and predicted time arrival of the bus to the user. Technology used are React Native as the mobile front-end and Node.js as the backend.
+    category: mobile
+    pictures: 4
+  - id: ioasis
+    name: iOASIS
+    summary: React Native
+    descritption: IRC Online Apps and Information Service
+    category: mobile
+    pictures: 2
+  - id: aide_glass
+    name: Aide Glass
+    summary: Raspberry Pi + Python + React Native
+    description: Transcribing Smart Glasses for Hearing Impaired
+    category: electronics
+    pictures: 2
+  - id: istaid
+    name: Istaid Center Website
+    summary: Rails + Postgresql + AWS EC2
+    description: An non-profit organization website made with Ruby on Rails. Built with customized CMS (Content Management System) made from scratch using Postgresql as the database<br><br> Technologies Used:<br> • Materialize - CSS Framework<br> • Rails - Backend Framework<br> • Postgresql - Database<br> • Amazon EC2 - Hosting Server<br> • Cloudinary - Image Hosting<br>
+    category: web
+    pictures: 3
+    link: https://www.istaidcenter.com
+  - id: dscutp
+    name: DSC UTP
+    summary: Jekyll + HTML/CSS
+    description: Official website for Developer Student Clubs UTP (DSCUTP).
+    category: web
+    pictures: 2
+    link: https://dscutp.com
+  - id: hazwan
+    name: Hazwan & Alia Dental Clinic
+    summary: Jekyll + HTML/CSS
+    category: web
+    pictures: 2
+    link: https://klinikpergigianhazwanalia.com
   - id: dot_hit
     name: Dot Hit!
     summary: C# + Unity3D
@@ -19,7 +57,7 @@ projects:
       - Improved my skills in photoshop<br>
       - Improved my skills in Unity3D<br>
       - Improved my skills in C#<br>"
-    category: game
+    category: mobile
     pictures: 3
     link: https://play.google.com/store/apps/details?id=com.RashadProduction.Dot&hl=en
   - id: cube_runner
@@ -35,22 +73,9 @@ projects:
       - Graphic Design (Photoshop)<br>
       - Sound Editing (Audacity)<br>
       - Copywriting (Game description in Playstore)<br>"
-    category: game
+    category: mobile
     pictures: 5
     link: https://play.google.com/store/apps/details?id=com.RashadProduction.CubeRunner&hl=en
-  - id: todo_app
-    name: Todo App
-    summary: MongoDB + Express.js + React.js + Node.js
-    description: A To Do List Web Apps made with Mongodb, Express.js, React.js and Node.js with Login features using Passport.js. This project was done to learn React
-    category: web
-    pictures: 3
-    link: https://mfrashad-todo-app.herokuapp.com/
-  - id: bustime
-    name: Bustime
-    summary: React Native + Node.js
-    description: Bustime is an app to track real-time location of public buses and predict their time of arrival made during 3 Days of Code Hackathon. The project consist of 2 apps, the first is Driver App for the bus driver to use which will track the bus location and the second is the user app which display the location, route and predicted time arrival of the bus to the user. Technology used are React Native as the mobile front-end and Node.js as the backend.
-    category: web
-    pictures: 4
   - id: quote_generator
     name: Quote Generator
     summary: Vanilla Javascript
@@ -72,13 +97,13 @@ projects:
     category: web
     pictures: 3
     link: https://mfrashad-merchant-portal.herokuapp.com
-  - id: twitchtv
-    name: TwitchTV Online Tracker
-    summary: Javascript + jQuery
-    description: Project made for FreeCodeCamp using TwitchTv JSON API
-    category: web
-    pictures: 3
-    link: https://mfrashad.github.io/twitchtv-online-tracker/
+  # - id: twitchtv
+  #   name: TwitchTV Online Tracker
+  #   summary: Javascript + jQuery
+  #   description: Project made for FreeCodeCamp using TwitchTv JSON API
+  #   category: web
+  #   pictures: 3
+  #   link: https://mfrashad.github.io/twitchtv-online-tracker/
   - id: url_shortener
     name: URL Shortener Microservice
     summary: MongoDB + Express.js + Node.js
@@ -86,13 +111,13 @@ projects:
     category: web
     pictures: 3
     link: https://mfrashad-urlshortener.herokuapp.com/
-  - id: istaid
-    name: Istaid Center Website
-    summary: Rails + Postgresql + AWS EC2
-    description: An non-profit organization website made with Ruby on Rails. Built with customized CMS (Content Management System) made from scratch using Postgresql as the database<br><br> Technologies Used:<br> • Materialize - CSS Framework<br> • Rails - Backend Framework<br> • Postgresql - Database<br> • Amazon EC2 - Hosting Server<br> • Cloudinary - Image Hosting<br>
+  - id: todo_app
+    name: Todo App
+    summary: MongoDB + Express.js + React.js + Node.js
+    description: A To Do List Web Apps made with Mongodb, Express.js, React.js and Node.js with Login features using Passport.js. This project was done to learn React
     category: web
     pictures: 3
-    link: https://www.istaidcenter.com
+    link: https://mfrashad-todo-app.herokuapp.com/
   - id: robocon_robot
     name: Autonomous Line Following Catapult (Robocon)
     summary: Arduino + C++
