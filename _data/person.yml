@@ -6,48 +6,45 @@ about_features:
     description: C/C++, Python, Arduino, Raspberry Pi
     icon_class: mdi mdi-memory
   - name: Web Development
-    description: Node.js, Express.js, Ruby on Rails
+    description: Ruby on Rails, React, Node.js, Express.js
     icon_class: mdi mdi-cellphone-link
   - name: Graphic Design
-    description: Photoshop & Illustrator
+    description: Photoshop, Illustrator, Adobe XD
     icon_class: mdi mdi-brush
-  - name: Game Development
-    description: Unity3D
+  - name: Mobile Development
+    description: React Native, Unity3D, C#
     icon_class: mdi mdi-gamepad-variant
 
-about: "I'm an 18 years old computer engineering student <br> with a serious passion for programming"
+about: "A passionate developer working with Python, Rails, and React Native who loves to learn new things. Currently exploring various tech related fields such as full-stack development, cyber security, and machine learning. Worked as the youngest software engineer intern at Fave (17 years old) building the merchant side platform. A freelance developer, currently working with UTP (owned by PETRONAS, Malaysian only F500 company) and a serial hackathonists."
 
 skills:
   - name: HTML/CSS
-    width: 80%
-    level: 80%
+    width: 60%
+    level: Working Knowlede
   - name: Javascript
-    width: 80%
-    level: 80%
+    width: 60%
+    level: Working Knowledge
   - name: React
-    width: 30%
-    level: 30%
+    width: 60%
+    level: Working Knowledge
   - name: Node.js
     width: 40%
-    level: 40%
+    level: Basic Knowledge
   - name: Ruby/Rails
     width: 60%
-    level: 60%
+    level: Working Knowledge
   - name: Git
     width: 60%
-    level: 60%
+    level: Working Knowledge
   - name: C#/Unity3D
     width: 40%
-    level: 40%
-  - name: SQL
-    width: 50%
-    level: 50%
+    level: Basic Knowledge
   - name: Linux/Unix
     width: 60%
-    level: 60%
+    level: Working Knowledge
   - name: C/C++
-    width: 60%
-    level: 60%
+    width: 40%
+    level: Basic Knowledge
   - name: Photoshop
     width: 60%
-    level: 60%
+    level: Working Knowledge
