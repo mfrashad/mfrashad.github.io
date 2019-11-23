@@ -413,6 +413,7 @@ section {
     #home .button {
       padding: 12px 40px 12px 15px;
       position: relative;
+      margin-top: 30px;s
       margin-bottom: 53px; }
       #home .button .mdi {
         transition: transform .3s;
@@ -806,7 +807,7 @@ footer {
     transition: background .5s; }
     footer .mdi-chevron-double-up:hover {
       background: #fb1f79; }
-  footer .icon-wrap .icon {
+  footer .icon-wrap .icon, #home .icon-wrap .icon {
     overflow: hidden;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
     cursor: pointer;
@@ -817,18 +818,18 @@ footer {
     margin: 0 15px;
     background: #262F38;
     font-size: 18pt; }
-  footer .icon-wrap .mdi {
+  footer .icon-wrap .mdi, #home .icon-wrap .mdi {
     text-align: center;
     color: #fff; }
     footer .icon-wrap .mdi.mdi-codepen {
       font-size: 20pt; }
-  footer .icon-wrap .icon:hover {
+  footer .icon-wrap .icon:hover, #home .icon-wrap .icon:hover {
     background: #04C2C9;
     box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
     transform: scale(0.9); }
-    footer .icon-wrap .icon:hover .mdi {
+    footer .icon-wrap .icon:hover .mdi, #home .icon-wrap .icon:hover .mdi {
       color: #fff; }
-  footer .icon-wrap .icon:hover .mdi {
+  footer .icon-wrap .icon:hover .mdi, #home .icon-wrap .icon:hover .mdi {
     -webkit-animation: toBottomFromTop 0.3s forwards;
     -moz-animation: toBottomFromTop 0.3s forwards;
     animation: toBottomFromTop 0.3s forwards; }
