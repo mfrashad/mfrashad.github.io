@@ -38,7 +38,7 @@ $(document).ready(function(){
   });
 
   var carousel = $('#carousel'),
-      slideWidth = 700,
+      slideWidth = 600,
       threshold = slideWidth/3,
       dragStart, 
       dragEnd;
@@ -90,7 +90,7 @@ $(document).ready(function(){
       }
       carousel.removeClass('transition')
       carousel.css('transform','translateX(0px)'); 
-    },700)
+    },600)
   }
 
   function fillModal(id) {

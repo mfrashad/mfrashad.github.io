@@ -24,9 +24,14 @@ projects:
   - id: aide_glass
     name: Aide Glass
     summary: Raspberry Pi + Python + React Native
-    description: Transcribing Smart Glasses for Hearing Impaired
+    description: 
+      "Aide Glass is a smart glasses that transcribes surrounding voices to text
+      that will be shown on the lens. It aims to help hearing impaired people 
+      in communicating with normal people using a cheaper alternative solution than hearing aids or implants.
+      <br><br>The project also won the Chairman's Award in 42nd Science & Engineering Design Exhibition in Malaysia
+      out of 160 teams that participated."
     category: electronics
-    pictures: 2
+    pictures: 5
   - id: istaid
     name: Istaid Center Website
     summary: Rails + Postgresql + AWS EC2
