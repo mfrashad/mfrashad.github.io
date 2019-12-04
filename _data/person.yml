@@ -19,32 +19,32 @@ about: "A passionate developer working with Python, Rails, and React Native who 
 
 skills:
   - name: HTML/CSS
-    width: 60%
-    level: Working Knowlede
+    width: 80%
+    level: Proficient
   - name: Javascript
-    width: 60%
-    level: Working Knowledge
+    width: 80%
+    level: Proficient
   - name: React
-    width: 60%
-    level: Working Knowledge
+    width: 80%
+    level: Proficient
   - name: Node.js
-    width: 40%
-    level: Basic Knowledge
+    width: 50%
+    level: Familiar
   - name: Ruby/Rails
-    width: 60%
-    level: Working Knowledge
+    width: 80%
+    level: Proficient
   - name: Git
-    width: 60%
-    level: Working Knowledge
+    width: 80%
+    level: Proficient
   - name: C#/Unity3D
-    width: 40%
-    level: Basic Knowledge
+    width: 50%
+    level: Familiar
   - name: Linux/Unix
-    width: 60%
-    level: Working Knowledge
+    width: 80%
+    level: Proficient
   - name: C/C++
-    width: 40%
-    level: Basic Knowledge
+    width: 50%
+    level: Familiar
   - name: Photoshop
-    width: 60%
-    level: Working Knowledge
+    width: 80%
+    level: Proficient

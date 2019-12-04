@@ -484,8 +484,8 @@ section {
       transition: 2s 0.2s width ease-in-out; }
     #about .bar:nth-child(11) .fill {
       transition: 2.1s 0.2s width ease-in-out; }
-    #about .bar span {
-      display: none; }
+    /* #about .bar span {
+      display: none; } */
     #about .bar.fill {
       top: 0;
       left: 0;
@@ -576,9 +576,10 @@ section {
           background: #E31B6D;
           color: #fff; }
         #portfolio .gallery .mix .card {
-          height: 240px;
+          height: 75vw;
           max-width: 100%;
-          width: calc(50vw - 8px);
+          background-size: contain;
+          width: 100vw;
           cursor: pointer;
           transition: opacity .5s; }
         #portfolio .gallery .mix:hover .card {
@@ -656,9 +657,9 @@ section {
           background: #E31B6D;
           color: #fff; }
         #experience .gallery .mix .card {
-          height: 240px;
+          height: 75vw;
           max-width: 100%;
-          width: calc(50vw - 8px);
+          width: 100vw;
           cursor: pointer;
           transition: opacity .5s; }
         #experience .gallery .mix:hover .card {
@@ -959,6 +960,7 @@ footer {
     #portfolio .float-bar {
       height: 30px; }
     #portfolio .gallery .mix .card {
+      width: 390px;
       height: 300px; }
     #experience .filter {
       font-size: 11pt;
@@ -967,6 +969,7 @@ footer {
     #experience .float-bar {
       height: 30px; }
     #experience .gallery .mix .card {
+      width: 390px;
       height: 300px; }
     #blog {
       padding: 130px 0 180px 0; }
