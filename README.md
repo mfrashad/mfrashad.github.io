@@ -84,6 +84,9 @@ The structure of the project looks something like this:
 ### Index Page
 To make changes on the index page, go to `index.html` in the root directory. Do note that some part have been modularized and separatated into files in `_includes` directory. Also, the `index.html` is using `_layouts/default.html` layout.
 
+### Update CV
+Replace CV.pdf with the latest CV.
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
