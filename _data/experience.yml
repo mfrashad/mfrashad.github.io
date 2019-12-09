@@ -23,6 +23,14 @@ projects:
       - Practiced Agile Methodologies<br>"
     category: work
     pictures: 5
+  - id: sedex42
+    name: 42nd Science & Engineering Design Exhibition
+    summary: Chairman's Award
+    description:
+      "Won the Chairman's Award out of 160 teams that participated by presenting
+      the project Aide Glass, a low cost transcribing smart glasses for the hearing impaired."
+    category: competition
+    pictures: 4
   - id: robocon18
     name: Robocon 2018
     summary: Top 16 Team in Malaysia (Main Programmer)
@@ -42,12 +50,55 @@ projects:
     description: The workshop aim to introduce Raspberry Pi to the students in our university. We guided them from installation and setup to the final result which is an LED controlled telegram bot.
     category: event
     pictures: 7
-  - id: cyhi
-    name: Can You Hack It Hackathon 2018
-    summary: Participant
-    description: Can You Hack It is a 24-hour hackathon about the future of banking
+  - id: dsc_github
+    name: DSC GitHub Workshop
+    summary: Speaker
+    description: Hands-on Git & GitHub workshop conducted by Developer Student Club (DSC) UTP.
+    category: event
+    pictures: 3
+  - id: adc_github
+    name: UTP App Dev Club Git & GitHub Workshop
+    summary: Speaker
+    description:
+      "Organized and spoke for Git & GitHub workshop with UTP App Dev Club"
+    category: event
+    pictures: 3
+  - id: apuboh19
+    name: APU Battle of Hackers 2019 CTF
+    summary: Finalist | Rank 9
+    description:
+      "Led and mentored 2 students to participate in an intervarsity
+       cybersecurity Capture The Flag competition as UTP representative.
+       Managed to rank 9 out of 50+ teams in Malaysia."
     category: competition
-    pictures: 7
+    pictures: 4
+  - id: reboot
+    name: Reboot The Earth Hackathon
+    summary: Finalist 
+    description: 
+      "A global hackathon organized by United Nation at UN Technology Innovation Labs (UNTIL).
+      Developed a prototype of Zed.ai, an out of the box AI solution
+      dedicated to combat against climate change. Zed.ai enables
+      unskilled individuals to use robust AI tools against climate change."
+    category: competition
+    pictures: 4
+  - id: abcde19
+    name: AI and Big Data Challenge for Data Engineer (ABCDE) 2019
+    summary: Top 20
+    description: 
+      "Developed SNAP, a dashboard Rails application that predicts
+        product sales and gives recommendation on asset management
+        using linear regression."
+    category: competition
+    pictures: 2
+  - id: unblockathon
+    name: Unblockathon 2019
+    summary: Top 20
+    description: 
+      "Unblockathon is a blockchain themed hackathon with reality show element.
+        Top 20 out of 80+ teams that participated."
+    category: competition
+    pictures: 4
   - id: iarc
     name: International Advanced Robotic Competition
     summary: Technical & Media Committee

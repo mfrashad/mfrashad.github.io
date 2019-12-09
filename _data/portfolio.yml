@@ -42,13 +42,14 @@ projects:
   - id: dscutp
     name: DSC UTP
     summary: Jekyll + HTML/CSS
-    description: Official website for Developer Student Clubs UTP (DSCUTP).
+    description: Official website for Developer Student Clubs UTP (DSCUTP) made with Jekyll. DSC is a program by Google Developers for university students.
     category: web
     pictures: 2
     link: https://dscutp.com
   - id: hazwan
     name: Hazwan & Alia Dental Clinic
     summary: Jekyll + HTML/CSS
+    description: A static website made with Jekyll.
     category: web
     pictures: 2
     link: https://klinikpergigianhazwanalia.com
