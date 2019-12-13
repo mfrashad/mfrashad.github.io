@@ -49,6 +49,7 @@ $(function() {
     // Link Highlighting
     if (pos2 > $('#home').offset().top)       { highlightLink('home'); }
     if (pos2 > $('#about').offset().top)      { highlightLink('about'); }
+    if (pos2 > $('#blog').offset().top)      { highlightLink('blog'); }
     if (pos2 > $('#portfolio').offset().top)  { highlightLink('portfolio'); }
     if (pos2 > $('#experience').offset().top)  { highlightLink('experience'); }
     if (pos2 > $('#testimonials').offset().top)       { highlightLink('testimonials'); }

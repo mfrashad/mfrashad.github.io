@@ -413,7 +413,7 @@ section {
     #home .button {
       padding: 12px 40px 12px 15px;
       position: relative;
-      margin-top: 30px;s
+      margin-top: 30px;
       margin-bottom: 53px; }
       #home .button .mdi {
         transition: transform .3s;
@@ -973,6 +973,9 @@ footer {
       height: 300px; }
     #blog {
       padding: 130px 0 180px 0; }
+      #blog #medium-content{
+        margin: 0 15px;
+      }
       #blog .label {
         line-height: 22pt;
         font-size: 16pt; }
@@ -1090,14 +1093,13 @@ footer {
     margin: 0 25px; }
   #blog .blog-wrap {
     width: 400px;
-    margin: 0 0 50px 20px;
-    opacity: 0; } }
+    margin: 0 0 50px 30px; } }
     
 @media screen and (min-width: 1280px) {
   #blog .blog-wrap {
-    width: 270px;
-    margin: 0 0 50px 20px; 
-  } 
+    width: 600px;
+    margin: 0 0 50px 40px; 
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
