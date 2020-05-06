@@ -95,6 +95,48 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; }
 
+.panel-wrapper {
+  position: relative;
+}
+
+.expand-button {
+  border: 2px solid #616161;
+  color: #444649;
+  padding: 10px 20px;
+  font-size: 16pt;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.6s;
+}
+
+.expand-button:hover {
+  background-color: #04C2C9;
+  border-color: #04C2C9;
+  color: #fff;
+}
+
+.collapsible {
+  position: relative;
+  max-height: 800px;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+
+.collapsible.-expanded {
+  max-height: 2000px;
+}
+
+.collapsible:not(.-expanded)::after {
+  content: '';
+  position: absolute;
+  top: 600px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+
 #preload {
   display: none; }
 

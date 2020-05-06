@@ -92,6 +92,16 @@ $(function() {
     $('.link-wrap').toggleClass('visible');
   });
 
+  $('.expand-button').on('click', function(){
+    $(this).siblings('.collapsible').toggleClass('-expanded');
+    
+    if ($(this).siblings('.collapsible').hasClass('-expanded')) {
+      $(this).html('Show Less');
+    } else {
+      $(this).html('Show More');
+    }
+  });
+
   // $('.blog-wrap').hover(  function() {
   //   $('.blog-wrap').not(this).addClass('fade');
   //   $( this ).addClass( "hover" );
