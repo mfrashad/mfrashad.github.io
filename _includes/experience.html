@@ -20,7 +20,7 @@
     </div>
   </div>
 
-  <div class="gallery container flex row wrap waypoint">
+  <div class="gallery container flex row wrap waypoint collapsible">
     {% for project in site.data.experience.projects %}
       <div class="mix {{project.category}}" data-my-order="1">
         <div>
@@ -34,4 +34,7 @@
       </div>
     {% endfor %}
   </div>
+  <button class="expand-button">
+    Show More
+  </button>
 </section>
