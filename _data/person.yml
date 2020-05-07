@@ -2,11 +2,15 @@ name: Rashad
 description: I'm a full-stack web developer.
 
 about_features:
-  - name: Electronics
-    description: C/C++, Python, Arduino, Raspberry Pi
+  - name: Embedded
+    description: |
+      C/C++, Python, Arduino,<br>
+      Raspberry Pi
     icon_class: mdi mdi-memory
   - name: Web Development
-    description: Ruby on Rails, React, Node.js, Express.js
+    description: |
+      Ruby on Rails, React, Node.js,<br>
+      Express.js, GCP, Docker, Kubernetes
     icon_class: mdi mdi-cellphone-link
   - name: Graphic Design
     description: Photoshop, Illustrator, Adobe XD
