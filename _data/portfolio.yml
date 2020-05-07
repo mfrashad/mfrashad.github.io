@@ -39,10 +39,10 @@ projects:
     category: web
     pictures: 3
     link: https://www.istaidcenter.com
-  - id: dscutp
-    name: DSC UTP
-    summary: Jekyll + HTML/CSS
-    description: Official website for Developer Student Clubs UTP (DSCUTP) made with Jekyll. DSC is a program by Google Developers for university students.
+  - id: legacybrand
+    name: Legacy Brand
+    summary: Jekyll + Firebase + Stripe
+    description: Legacy Brands is an online products and services subscription platform dedicated to rebuilding US inner cities.
     category: web
     pictures: 2
     link: https://dscutp.com
@@ -53,6 +53,20 @@ projects:
     category: web
     pictures: 2
     link: https://klinikpergigianhazwanalia.com
+  - id: dscutp
+    name: DSC UTP
+    summary: Jekyll + HTML/CSS
+    description: Official website for Developer Student Clubs UTP (DSCUTP) made with Jekyll. DSC is a program by Google Developers for university students.
+    category: web
+    pictures: 2
+    link: https://dscutp.com
+  - id: photosketch
+    name: PhotoSketch
+    summary: React Native + OpenCV + Firebase
+    description: Hand-drawn Sketch Game Prototyping Tool
+    category: mobile
+    pictures: 2
+    link: https://github.com/mfrashad/photosketch
   - id: dot_hit
     name: Dot Hit!
     summary: C# + Unity3D

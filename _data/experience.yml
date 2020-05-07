@@ -31,6 +31,22 @@ projects:
       the project Aide Glass, a low cost transcribing smart glasses for the hearing impaired."
     category: competition
     pictures: 4
+  - id: ium2020
+    name: iUM Disrupt Hackathon 2020
+    summary: First Runner Up
+    description:
+      "Led a team of 3 inn building a COVID-19 AI-based pre-assessment app along with doctor 
+      apppointment booking and E-medical record. Secured the 2nd Place out of 30+ teams (100+ participants)."
+    category: competition
+    pictures: 2
+  - id: dsckitahack
+    name: DSC Kita Hack
+    summary: 2nd Place
+    description:
+      "DSC Kita Hack is an online hackathon by DSC Malaysia and Google Developers during COVID-19 season. 
+      We built a food aid management system to ease the food distribution process and prevent hoarding and fraud during the COVID-19 crisis."
+    category: competition
+    pictures: 2
   - id: robocon18
     name: Robocon 2018
     summary: Top 16 Team in Malaysia (Main Programmer)
@@ -43,6 +59,14 @@ projects:
       - Integrated the code for pressure controller (throwing mechanism)<br>
       - Coded positioning algorithm to recieve passed ball accurately"
     category: competition
+    pictures: 5
+  - id: dsc_flutter_1
+    name: Flutter Workshop
+    summary: Mentor + Speaker
+    description: 
+      The workshop aim to introduce mobile app development to the students in our university. 
+      We guided them from installation and setup to the final result which is a movies app and stopwatch app.
+    category: event
     pictures: 5
   - id: rpi_workshop
     name: Raspberry Pi Workshop
