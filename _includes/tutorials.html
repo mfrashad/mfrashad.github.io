@@ -1,0 +1,29 @@
+<section id="tutorials">
+  <div class="container flex">
+
+    <div class="header waypoint" data-animation="slide-in-left">TUTORIALS</div>
+    <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+    <div  class="flex row wrap">
+      <div class="flex row-gt-sm">
+        {% for tutorial in site.data.tutorials %}
+        <a href="{{tutorial.url}}" target="_blank">
+          <div class="blog-wrap" data-animation="fade-in">
+            <div class="fade-wrap">
+              <div class="thumb" style="background: url('img/tutorials/{{tutorial.image}}') center center/cover;">
+              </div>
+              <div class="label bold">{{tutorial.title}}</div>
+              <div class="date">{{tutorial.date}}</div>
+              <div class="bar"></div>
+              <div class="text">
+                <p>{{tutorial.description}}
+              </p></div>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</section>

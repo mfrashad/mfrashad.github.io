@@ -763,6 +763,9 @@ section {
       font-size: 9pt;
       line-height: 13pt;
       max-height: 85px; }
+  #tutorials .thumb {
+    height: 150px;
+    margin: 0 0 15px 0; }
   #contact {
     background: #252934;
     color: #fff;
