@@ -74,10 +74,7 @@ $(function() {
     $("nav").find('[dest="' + anchor + '"]').addClass('active');
   }
 
-
-  // EVENT HANDLERS
-  $('.page-link').click(function() {
-    var anchor = $(this).attr("dest");
+  function scrollToAnchor(anchor) {
     $('.link-wrap').removeClass('visible');
 
     $('nav span').removeClass('active');
@@ -86,19 +83,29 @@ $(function() {
     $('html, body').animate({
       scrollTop: $('#' + anchor).offset().top
     }, 400);
+  }
+
+
+  // EVENT HANDLERS
+  $('.page-link').click(function() {
+    var anchor = $(this).attr("dest");
+    scrollToAnchor(anchor);
   });
 
   $('.mdi-menu').click(function() {
     $('.link-wrap').toggleClass('visible');
   });
 
+
+  // SHOW MORE / SHOW LESS FUNCTION
   $('.expand-button').on('click', function(){
     $(this).siblings('.collapsible').toggleClass('-expanded');
-    
+    var anchor = $(this).attr("dest");
     if ($(this).siblings('.collapsible').hasClass('-expanded')) {
-      $(this).html('Show Less');
+      $(this).html("Show Less <i class='mdi mdi-chevron-double-up'></i>");
     } else {
-      $(this).html('Show More');
+      $(this).html("Show More <i class='mdi mdi-chevron-double-down'></i>");
+      scrollToAnchor(anchor);
     }
   });
 

@@ -100,18 +100,17 @@ body {
 }
 
 .expand-button {
-  border: 2px solid #616161;
-  color: #444649;
+  border: none;
+  color: #fff;
   padding: 10px 20px;
   font-size: 16pt;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #E31B6D;
   transition: all 0.6s;
 }
 
 .expand-button:hover {
-  background-color: #04C2C9;
-  border-color: #04C2C9;
+  background-color: #fb1f79;
   color: #fff;
 }
 
