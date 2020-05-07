@@ -15,10 +15,13 @@ about_features:
     description: React Native, Unity3D, C#
     icon_class: mdi mdi-gamepad-variant
 
-about: "A passionate developer working with Python, Rails, and React Native who loves to learn new things. Currently exploring various tech related fields such as full-stack development, cyber security, and machine learning. Worked as the youngest software engineer intern at Fave (17 years old) building the merchant side platform. A freelance developer, currently working with UTP (owned by PETRONAS, Malaysian only F500 company) and a serial hackathonists."
+about: "A full-stack developer working with Python, Rails, and React Native who loves to learn new things. Currently exploring various tech related fields such as full-stack development, cyber security, and machine learning. Worked as the youngest software engineer intern at Fave (17 years old) building the merchant side platform. A freelance developer, currently working with UTP (owned by PETRONAS, Malaysian only F500 company) and a serial hackathonists."
 
 skills:
   - name: HTML/CSS
+    width: 80%
+    level: Proficient
+  - name: Python
     width: 80%
     level: Proficient
   - name: Javascript
