@@ -1,5 +1,10 @@
-- title: Flutter Movies App
+- title: Flutter Movie App
   url: https://www.mfrashad.com/flutter-movie-codelab
-  description: How to create a Movies app with Flutter
-  image: dashboard-screen.png
-  date: 21 February 2020
+  description: In this codelab, you're going to build a simple movie app using Flutter and TMDB API. Your app will fetch the data of several movies from TMDB, and show it in a beautiful list on the app.
+  image: thumb-flutter-movie.jpg
+  date: 22 February 2020
+- title: Flutter Stopwatch App
+  url: https://www.mfrashad.com/flutter-stopwatch-codelab
+  description: In this codelab, you're going to build a simple stopwatch app with neumorphism design. The app will also have the additional functionality of timer.
+  image: thumb-flutter-stopwatch.jpg
+  date: 4 March 2020

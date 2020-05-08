@@ -729,14 +729,6 @@ section {
       padding: 0 2px;
       width: 100%;
       cursor: pointer; }
-      #blog .blog-wrap #thumb-1 {
-        background: url("../img/blog-1.jpg") center center/cover; }
-      #blog .blog-wrap #thumb-2 {
-        background: url("../img/blog-2.jpg") center center/cover; }
-      #blog .blog-wrap #thumb-3 {
-        background: url("../img/blog-3.jpg") center center/cover; }
-      #blog .blog-wrap #thumb-4 {
-        background: url("../img/blog-4.jpg") center center/cover; }
       #blog .blog-wrap .fade-wrap {
         transition: opacity .3s; }
       #blog .blog-wrap.fade .fade-wrap {
@@ -763,9 +755,50 @@ section {
       font-size: 9pt;
       line-height: 13pt;
       max-height: 85px; }
-  #tutorials .thumb {
-    height: 150px;
-    margin: 0 0 15px 0; }
+  
+  #tutorials {
+    padding: 130px 0 100px 0;
+    text-align: left; }
+    #tutorials .flex.row-gt-sm, #tutorials .flex.wrap {
+      align-items: flex-start; }
+    #tutorials .gradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+    #tutorials .blog-wrap {
+      margin: 0 0 50px 0;
+      padding: 0 2px;
+      width: 100%;
+      cursor: pointer; }
+      #tutorials .blog-wrap .fade-wrap {
+        transition: opacity .3s; }
+      #tutorials .blog-wrap.fade .fade-wrap {
+        opacity: 0.4; }
+      #tutorials .blog-wrap.hover .fade-wrap .label {
+        color: #04C2C9; }
+    #tutorials .label {
+      line-height: 14pt;
+      font-size: 12pt;
+      transition: color .3s ease-in-out; }
+    #tutorials .thumb {
+      height: 150px;
+      margin: 0 0 15px 0; }
+    #tutorials .date {
+      font-size: 7pt;
+      font-family: 'Open sans';
+      margin: 5px 0 0 0; }
+    #tutorials .bar {
+      height: 3px;
+      width: 25%;
+      background: #04C2C9;
+      margin: 10px 0px; }
+    #tutorials .text {
+      font-size: 9pt;
+      line-height: 13pt;
+      max-height: 85px; }
+
   #contact {
     background: #252934;
     color: #fff;
@@ -891,7 +924,8 @@ footer {
   #portfolio .gallery .mix .card {
     width: 100vw; }
   #experience .gallery .mix .card {
-    width: 100vw; } }
+    width: 100vw; } 
+  }
 @media screen and (min-width: 600px) {
   body {
     font-size: 12pt; }
@@ -1034,6 +1068,27 @@ footer {
         width: 400px; }
       #blog .thumb {
         height: 200px; }
+    
+    #tutorials {
+    padding: 130px 0 180px 0; }
+    #tutorials .flex.row-gt-sm{
+      margin: 0 15px;
+    }
+    #tutorials .label {
+      line-height: 22pt;
+      font-size: 16pt; }
+    #tutorials .date {
+      font-size: 8.5pt; }
+    #tutorials .bar {
+      margin: 15px 0px; }
+    #tutorials .text {
+      font-size: 11pt;
+      line-height: 15pt; }
+    #tutorials .blog-wrap {
+      width: 400px; }
+    #tutorials .thumb {
+      height: 200px; }
+
     #contact form {
       min-width: 500px; } }
 @media screen and (min-width: 960px) {
@@ -1137,12 +1192,20 @@ footer {
     margin: 0 25px; }
   #blog .blog-wrap {
     width: 400px;
-    margin: 0 0 50px 30px; } }
+    margin: 0 0 50px 30px; } 
+  #tutorials .blog-wrap {
+    width: 400px;
+    margin: 0 0 50px 30px; } 
+  }
     
 @media screen and (min-width: 1280px) {
-  #blog .blog-wrap {
+  #blog .blog-wrap  {
     width: 600px;
     margin: 0 0 50px 40px; 
+  }
+  #tutorials .blog-wrap {
+    width: 600px;
+    margin: 0 0 50px 40px;
   }
 }
 
