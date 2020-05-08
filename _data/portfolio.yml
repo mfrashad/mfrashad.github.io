@@ -35,36 +35,50 @@ projects:
   - id: istaid
     name: Istaid Center Website
     summary: Rails + Postgresql + AWS EC2
-    description: An non-profit organization website made with Ruby on Rails. Built with customized CMS (Content Management System) made from scratch using Postgresql as the database<br><br> Technologies Used:<br> • Materialize - CSS Framework<br> • Rails - Backend Framework<br> • Postgresql - Database<br> • Amazon EC2 - Hosting Server<br> • Cloudinary - Image Hosting<br>
+    description: 
+      An non-profit organization website made with Ruby on Rails. 
+      Built with customized CMS (Content Management System) made from scratch using Postgresql as the database
+      <br><br> Technologies Used:<br> 
+      • Materialize - CSS Framework<br> • Rails - Backend Framework<br> • Postgresql - Database<br> • Amazon EC2 - Hosting Server<br> 
+      • Cloudinary - Image Hosting<br>
     category: web
     pictures: 3
     link: https://www.istaidcenter.com
   - id: legacybrand
     name: Legacy Brand
     summary: Jekyll + Firebase + Stripe
-    description: Legacy Brands is an online products and services subscription platform dedicated to rebuilding US inner cities.
+    description: 
+      Legacy Brands is an online products and services subscription platform dedicated to rebuilding US inner cities.
+      The website is made using Jekyll and integrated with Firebase authentication, Firebase cloud functions, and 
+      Stripe payment gateway for subscription system.
     category: web
     pictures: 2
-    link: https://dscutp.com
+    link: https://www.inspiringamerica.org
   - id: hazwan
     name: Hazwan & Alia Dental Clinic
     summary: Jekyll + HTML/CSS
-    description: A static website made with Jekyll.
+    description: A landing page for dental clinic made with Jekyll with email-based appointment system using formspree.
     category: web
     pictures: 2
     link: https://klinikpergigianhazwanalia.com
   - id: dscutp
     name: DSC UTP
     summary: Jekyll + HTML/CSS
-    description: Official website for Developer Student Clubs UTP (DSCUTP) made with Jekyll. DSC is a program by Google Developers for university students.
+    description: 
+      Official website for Developer Student Clubs UTP (DSCUTP) made with Jekyll. DSC is a program by 
+      Google Developers for university students.
     category: web
     pictures: 2
     link: https://dscutp.com
   - id: photosketch
     name: PhotoSketch
     summary: React Native + OpenCV + Firebase
-    description: Hand-drawn Sketch Game Prototyping Tool
-    category: mobile
+    description: 
+      Hand-drawn sketch game prototyping tool app made for Hack & Roll Hackathon 2020 at NUS, Singapore organized by 
+      MLH (Major League Hacking). The app allows user to bring their hand-drawn sketch game design alive (currently limited to 2D platform game).
+      PhotoSketch uses Firebase for authentication and database, and use OpenCV hosted with Flask server to do image processing such as
+      color filtering and game object type classification to produce the game map data. On the other hand the frontend is made using React Native.
+      The app was built together with Chen Nuode.
     pictures: 2
     link: https://github.com/mfrashad/photosketch
   - id: dot_hit
@@ -96,6 +110,19 @@ projects:
     category: mobile
     pictures: 5
     link: https://play.google.com/store/apps/details?id=com.RashadProduction.CubeRunner&hl=en
+  - id: robocon_robot
+    name: Autonomous Line Following Catapult (Robocon)
+    summary: Arduino + C++
+    description: 
+      "A robot that will be passed a ball and throws the ball to enter 3 tall hoop with different height from a distance. The robot will navigate using white line provided on the the field. This robot was made for Robocon Malaysia 2018 Competition. I am mostly responsible for the code while the robot mechanic and circuitry was mostly done by other team member.<br>
+      <br>
+      What I did:<br>
+      - Coded autonomous line following algorithm with PID control<br>
+      - Integrated the code to work with mecanum wheel<br>
+      - Integrated the code for pressure controller (throwing mechanism)<br>
+      - Coded positioning algorithm to recieve passed ball accurately"
+    category: electronics
+    pictures: 6
   - id: quote_generator
     name: Quote Generator
     summary: Vanilla Javascript
@@ -117,13 +144,6 @@ projects:
     category: web
     pictures: 3
     link: https://mfrashad-merchant-portal.herokuapp.com
-  # - id: twitchtv
-  #   name: TwitchTV Online Tracker
-  #   summary: Javascript + jQuery
-  #   description: Project made for FreeCodeCamp using TwitchTv JSON API
-  #   category: web
-  #   pictures: 3
-  #   link: https://mfrashad.github.io/twitchtv-online-tracker/
   - id: url_shortener
     name: URL Shortener Microservice
     summary: MongoDB + Express.js + Node.js
@@ -138,19 +158,13 @@ projects:
     category: web
     pictures: 3
     link: https://mfrashad-todo-app.herokuapp.com/
-  - id: robocon_robot
-    name: Autonomous Line Following Catapult (Robocon)
-    summary: Arduino + C++
-    description: 
-      "A robot that will be passed a ball and throws the ball to enter 3 tall hoop with different height from a distance. The robot will navigate using white line provided on the the field. This robot was made for Robocon Malaysia 2018 Competition. I am mostly responsible for the code while the robot mechanic and circuitry was mostly done by other team member.<br>
-      <br>
-      What I did:<br>
-      - Coded autonomous line following algorithm with PID control<br>
-      - Integrated the code to work with mecanum wheel<br>
-      - Integrated the code for pressure controller (throwing mechanism)<br>
-      - Coded positioning algorithm to recieve passed ball accurately"
-    category: electronics
-    pictures: 6
+  - id: twitchtv
+    name: TwitchTV Online Tracker
+    summary: Javascript + jQuery
+    description: Project made for FreeCodeCamp using TwitchTv JSON API
+    category: web
+    pictures: 3
+    link: https://mfrashad.github.io/twitchtv-online-tracker/
   - id: childpro_design
     name: Children Provision Charity Poster Design
     summary: Photoshop + Poster
