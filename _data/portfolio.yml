@@ -18,9 +18,12 @@ projects:
   - id: ioasis
     name: iOASIS
     summary: React Native
-    descritption: IRC Online Apps and Information Service
+    description: 
+      A mobile app for UTP library. Students are able to search books availability from the app, manage their borrowing period, 
+      make appointment with librarians, and many more! The app was made with React Native.
     category: mobile
     pictures: 2
+    link: https://play.google.com/store/apps/details?id=com.utp.ioasis&hl=en
   - id: aide_glass
     name: Aide Glass
     summary: Raspberry Pi + Python + React Native
@@ -76,7 +79,7 @@ projects:
     description: 
       Hand-drawn sketch game prototyping tool app made for Hack & Roll Hackathon 2020 at NUS, Singapore organized by 
       MLH (Major League Hacking). The app allows user to bring their hand-drawn sketch game design alive (currently limited to 2D platform game).
-      PhotoSketch uses Firebase for authentication and database, and use OpenCV hosted with Flask server to do image processing such as
+      <br>PhotoSketch uses Firebase for authentication and database, and use OpenCV hosted with Flask server to do image processing such as
       color filtering and game object type classification to produce the game map data. On the other hand the frontend is made using React Native.
       The app was built together with Chen Nuode.
     pictures: 2
