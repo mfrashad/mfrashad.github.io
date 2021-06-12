@@ -4,10 +4,9 @@
     <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
     <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
 
-    <div  class="flex row wrap">
-      <div id="medium-content"  class="flex row-gt-sm">
-        <script src="scripts/medium-rss.js"></script>
-      </div>
-    </div>
+    <div id="medium-widget"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@mfrashad","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
+
   </div>
 </section>
