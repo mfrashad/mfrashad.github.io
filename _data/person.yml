@@ -2,24 +2,23 @@ name: Rashad
 description: I'm a full-stack web developer.
 
 about_features:
-  - name: Embedded
+  - name: Machine Learning
     description: |
-      C/C++, Python, Arduino,<br>
-      Raspberry Pi
+      Python, Pytorch, Tensorflow
     icon_class: mdi mdi-memory
   - name: Web Development
     description: |
       Ruby on Rails, React, Node.js,<br>
-      Express.js, GCP, Docker, Kubernetes
+      Flask, Flutter, GCP, Docker, Kubernetes
     icon_class: mdi mdi-cellphone-link
   - name: Graphic Design
     description: Photoshop, Illustrator, Adobe XD
     icon_class: mdi mdi-brush
   - name: Mobile Development
-    description: React Native, Unity3D, C#
+    description: React Native, Flutter, Unity3D, C#
     icon_class: mdi mdi-gamepad-variant
 
-about: "I'm a developer who loves to learn new things. Currently exploring various tech-related fields such as full-stack development, cyber security, and machine learning. At 16 years old, I started my degree as the youngest student and published 2 mobile games with a total of 1.5K+ installs and 4.5 stars ratings. At 17, I was the youngest software engineering intern at Fave and started freelancing. I have worked with 10+ clients since then. At 18, I started my own programming club, organized 7+ workshops, mentored students, and led several teams to competitions. At 19, I have won 5+ hackathons, wrote 7+ technical articles published in major publications on Medium, and also became a Microsoft Certified AI Engineer Associate."
+about: "I'm a machine learning engineer and a fullstack developer. At 15 years old, I skipped highschool and entered university as the youngest student. At 16, I published 2 mobile games with 2K total installs. At 17, I was the youngest software engineering intern at Fave and started freelancing. I have worked with 10+ clients since then. At 18, I started my own programming club, organized 7+ workshops, mentored students, and led several teams to competitions. At 19, I co-authored a machine learning with MIT, have won 5+ hackathons, wrote 7+ technical articles with 100K+ total viewws, and also obtained 2 Microsoft certifications (Azure AI Engineer & Data Scientist Associate)."
 
 skills:
   - name: HTML/CSS
