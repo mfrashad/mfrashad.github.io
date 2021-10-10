@@ -1,43 +1,85 @@
 categories:
+  - name: ML
+    class_name: ml
   - name: WEB
     class_name: web
   - name: MOBILE
     class_name: mobile
-  - name: DESIGN
-    class_name: design
   - name: ELECTRONICS
     class_name: electronics
 
 projects:
+  - id: gancreate
+    name: GANCREATE
+    summary: AI-Powered Animation Tool
+    description: Gancreate enables everyone to make videos easily. Users can quickly convert a script into an editable talking avatar and also animate it using AI motion transfer. Currently, there are 3 types of avatar, face portrait, full body 2d characters, and full body fashion models. Users can easily generate a unique avatar using our AI models. Furthermore, you can edit its attribute such as gender, age, realism and even mix between two avatars. Once you created an avatar, simply give a script or reference video as an input and the app will animate it accordingly.
+    category: ml
+    pictures: 4
+    link: https://devpost.com/software/gancreate
+  - id: text2art
+    name: Text2Art
+    summary: AI-Powered Text-to-Art Generator
+    description: Text2Art can generate all kind of arts from pixel art, drawings, photos, to paintings. In addition, Text 2Art also generates a video showing the process of how the art is generated.
+    category: ml
+    pictures: 3
+    link: https://github.com/mfrashad/text2art
+  - id: clothinggan
+    name: ClothingGAN
+    summary: AI-Powered Fashion Design Generator
+    description: ClothingGAN is able to generate clothing images and mix these images. While mixing, you can control which structure or style that you want the clothing to copy. Additionally, you can edit the generated clothing with several given attributes such as dark color, jacket, dress, or coat.
+    category: ml
+    pictures: 3
+    link: https://devpost.com/software/clothinggan
+  - id: aide_glass
+    name: Aide Glass
+    summary: Transcribing Smart Glasses for Deaf People
+    description: 
+      "Aide Glass is a smart glasses that transcribes surrounding voices to text
+      that will be shown on the lens. It aims to help hearing impaired people 
+      in communicating with normal people using a cheaper alternative solution than hearing aids or implants. The project uses Raspberry Pi, Python and React Native.
+      <br><br>The project also won the Chairman's Award in 42nd Science & Engineering Design Exhibition in Malaysia
+      out of 160 teams that participated."
+    category: electronics
+    pictures: 5
+  - id: photosketch
+    name: PhotoSketch
+    summary: Transform Sketch to Playable Game
+    description: 
+      Hand-drawn sketch game prototyping tool app made for Hack & Roll Hackathon 2020 at NUS, Singapore organized by 
+      MLH (Major League Hacking). The app allows user to bring their hand-drawn sketch game design alive (currently limited to 2D platform game).
+      <br>PhotoSketch uses Firebase for authentication and database, and use OpenCV hosted with Flask server to do image processing such as
+      color filtering and game object type classification to produce the game map data. On the other hand the frontend is made using React Native.
+      The app was built together with Chen Nuode.
+    pictures: 2
+    link: https://github.com/mfrashad/photosketch
+  - id: legacybrand
+    name: Legacy Brand
+    summary: Product Subsription Store
+    description: 
+      Legacy Brands is an online products and services subscription platform dedicated to rebuilding US inner cities.
+      The website is made using Jekyll and integrated with Firebase authentication, Firebase cloud functions, and 
+      Stripe payment gateway for subscription system.
+    category: web
+    pictures: 2
+    link: https://www.inspiringamerica.org
   - id: bustime
     name: Bustime
-    summary: React Native + Firebase
+    summary: Bus Live Tracker
     description: Bustime is an app to track real-time location of public buses and predict their time of arrival made during 3 Days of Code Hackathon. The project consist of 2 apps, the first is Driver App for the bus driver to use which will track the bus location and the second is the user app which display the location, route and predicted time arrival of the bus to the user. Technology used are React Native as the mobile front-end and Node.js as the backend.
     category: mobile
     pictures: 4
   - id: ioasis
     name: iOASIS
-    summary: React Native
+    summary: Library University App
     description: 
       A mobile app for UTP library. Students are able to search books availability from the app, manage their borrowing period, 
       make appointment with librarians, and many more! The app was made with React Native.
     category: mobile
     pictures: 2
     link: https://play.google.com/store/apps/details?id=com.utp.ioasis&hl=en
-  - id: aide_glass
-    name: Aide Glass
-    summary: Raspberry Pi + Python + React Native
-    description: 
-      "Aide Glass is a smart glasses that transcribes surrounding voices to text
-      that will be shown on the lens. It aims to help hearing impaired people 
-      in communicating with normal people using a cheaper alternative solution than hearing aids or implants.
-      <br><br>The project also won the Chairman's Award in 42nd Science & Engineering Design Exhibition in Malaysia
-      out of 160 teams that participated."
-    category: electronics
-    pictures: 5
   - id: istaid
     name: Istaid Center Website
-    summary: Rails + Postgresql + AWS EC2
+    summary: Blog Content Management System
     description: 
       An non-profit organization website made with Ruby on Rails. 
       Built with customized CMS (Content Management System) made from scratch using Postgresql as the database
@@ -47,46 +89,25 @@ projects:
     category: web
     pictures: 3
     link: https://www.istaidcenter.com
-  - id: legacybrand
-    name: Legacy Brand
-    summary: Jekyll + Firebase + Stripe
-    description: 
-      Legacy Brands is an online products and services subscription platform dedicated to rebuilding US inner cities.
-      The website is made using Jekyll and integrated with Firebase authentication, Firebase cloud functions, and 
-      Stripe payment gateway for subscription system.
-    category: web
-    pictures: 2
-    link: https://www.inspiringamerica.org
   - id: hazwan
     name: Hazwan & Alia Dental Clinic
-    summary: Jekyll + HTML/CSS
+    summary: Dental Clinic Website
     description: A landing page for dental clinic made with Jekyll with email-based appointment system using formspree.
     category: web
     pictures: 2
     link: https://klinikpergigianhazwanalia.com
   - id: dscutp
     name: DSC UTP
-    summary: Jekyll + HTML/CSS
+    summary: Club Website
     description: 
       Official website for Developer Student Clubs UTP (DSCUTP) made with Jekyll. DSC is a program by 
       Google Developers for university students.
     category: web
     pictures: 2
     link: https://dscutp.com
-  - id: photosketch
-    name: PhotoSketch
-    summary: React Native + OpenCV + Firebase
-    description: 
-      Hand-drawn sketch game prototyping tool app made for Hack & Roll Hackathon 2020 at NUS, Singapore organized by 
-      MLH (Major League Hacking). The app allows user to bring their hand-drawn sketch game design alive (currently limited to 2D platform game).
-      <br>PhotoSketch uses Firebase for authentication and database, and use OpenCV hosted with Flask server to do image processing such as
-      color filtering and game object type classification to produce the game map data. On the other hand the frontend is made using React Native.
-      The app was built together with Chen Nuode.
-    pictures: 2
-    link: https://github.com/mfrashad/photosketch
   - id: dot_hit
     name: Dot Hit!
-    summary: C# + Unity3D
+    summary: Android Game
     description: 
       "Dot Hit is an 2D android game developed with Unity3D Game Engine. The game is available on Playstore<br>
       <br>
@@ -99,7 +120,7 @@ projects:
     link: https://play.google.com/store/apps/details?id=com.RashadProduction.Dot&hl=en
   - id: cube_runner
     name: Cube Runner
-    summary: C# + Unity3D
+    summary: Android Game
     description: 
       "Cube Runner is a 3D android game developed with Unity3D game engine. It is an arcade endless runner game. It is available in playstore and have reached 1K+ installs.<br>
       <br>
@@ -154,13 +175,13 @@ projects:
     category: web
     pictures: 3
     link: https://mfrashad-urlshortener.herokuapp.com/
-  - id: todo_app
-    name: Todo App
-    summary: MongoDB + Express.js + React.js + Node.js
-    description: A To Do List Web Apps made with Mongodb, Express.js, React.js and Node.js with Login features using Passport.js. This project was done to learn React
-    category: web
-    pictures: 3
-    link: https://mfrashad-todo-app.herokuapp.com/
+  # - id: todo_app
+  #   name: Todo App
+  #   summary: MongoDB + Express.js + React.js + Node.js
+  #   description: A To Do List Web Apps made with Mongodb, Express.js, React.js and Node.js with Login features using Passport.js. This project was done to learn React
+  #   category: web
+  #   pictures: 3
+  #   link: https://mfrashad-todo-app.herokuapp.com/
   - id: twitchtv
     name: TwitchTV Online Tracker
     summary: Javascript + jQuery
@@ -168,22 +189,4 @@ projects:
     category: web
     pictures: 3
     link: https://mfrashad.github.io/twitchtv-online-tracker/
-  - id: childpro_design
-    name: Children Provision Charity Poster Design
-    summary: Photoshop + Poster
-    description: 
-      "These are posters that I designed when I voluteered in Children Provision Charity Event as Assistant Head of Technical & Design Department<br>
-      <br>
-      Disclaimer: I did not create any artworks present, I manipulated/modified/combined it to make the poster."
-    category: design
-    pictures: 3
-  - id: iarc_design
-    name: International Advanced Robotic Competition Design
-    summary: Photoshop + Banner + Poster
-    description: 
-      "These are posters that I designed when I voluteered as Technical & Media Committee  in International Advanced Robotic Competition 2018<br>
-      <br>
-      Disclaimer: I did not create any artworks present, I manipulated/modified/combined it to make the poster."
-    category: design
-    pictures: 3
 
