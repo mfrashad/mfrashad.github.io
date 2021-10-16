@@ -1,12 +1,96 @@
 categories:
   - name: WORK
     class_name: work
-  - name: EVENT
-    class_name: event
+  - name: SPEAKING
+    class_name: speaking
   - name: COMPETITION
     class_name: competition
 
 projects:
+  - id: mit_research
+    name: Research with MIT
+    summary: Research Collaborator & Paper Co-Author
+    description:
+      "● Joined and collaborated with MIT DeCoDE Lab for 10 months.<br>
+      ● Co-authored “CreativeGAN: Editing Generative Adversarial Network for Creative Design Synthesis” paper for ASME IDETC-CIE 2021 conference and contributed 80% of the experiment.<br>
+      ● Trained segmentation, generative, and anomaly detection network on a new dataset and integrated the networks for creative bike design synthesis.<br>
+      ● Python, Tensorflow, PyTorch, OpenCV, High-Performance Computing (HPC)."
+    category: work
+    pictures: 4
+  - id: dsc_flutter_1
+    name: Flutter Workshop
+    summary: Mentor + Speaker
+    description: 
+      "The workshop aim to introduce mobile app development to the students in our university. 
+      We guided them from installation and setup to the final result which is a movies app and stopwatch app."
+    category: speaking
+    pictures: 5
+  - id: ium2020
+    name: iUM Disrupt Hackathon 2020
+    summary: First Runner Up
+    description:
+      "Led a team of 3 inn building a COVID-19 AI-based pre-assessment app along with doctor 
+      apppointment booking and E-medical record. Secured the 2nd Place out of 30+ teams (100+ participants)."
+    category: competition
+    pictures: 2
+  - id: dscutp_hack_intro
+    name: DSCUTP Flutter Workshop
+    summary: Invited Speaker
+    description:
+      Invited as speaker for DSCUTP Hackathon. Presented 'Introduction to Hakcathon'.
+    category: speaking
+    pictures: 2
+  - id: flutter_workshop2
+    name: Flutter Workshop 2
+    summary: Speaker
+    description:
+      Organized another flutter technical workshop and was the speaker for the event.
+    category: speaking
+    pictures: 2
+  - id: voi
+    name: Voice of Intern
+    summary: Invited Speaker
+    description:
+      Invited to speak as a forum speaker in a live QnA regarding how I scored A in compulsory internship program (SIIP).
+    category: speaking
+    pictures: 2
+  - id: taces
+    name: T-ACES International Webinar
+    summary: Invited Speaker
+    description:
+      Invited as speaker for Telkom Annual Competition for English Society (T-ACES) Webinar.
+      This is my first paid speaking gig and I shared on 'How to Overcome Your Fear of Starting Something New'.
+    category: speaking
+    pictures: 4
+  - id: sedex42
+    name: 42nd Science & Engineering Design Exhibition
+    summary: Chairman's Award
+    description:
+      "Won the Chairman's Award out of 160 teams that participated by presenting
+      the project Aide Glass, a low cost transcribing smart glasses for the hearing impaired."
+    category: competition
+    pictures: 4
+  - id: dsckitahack
+    name: DSC Kita Hack
+    summary: Winner
+    description:
+      "DSC Kita Hack is an online hackathon by DSC Malaysia and Google Developers during COVID-19 season. 
+      We built a food aid management system to ease the food distribution process and prevent hoarding and fraud during the COVID-19 crisis."
+    category: competition
+    pictures: 2
+  - id: dsc_github
+    name: DSC GitHub Workshop
+    summary: Speaker
+    description: Hands-on Git & GitHub workshop conducted by Developer Student Club (DSC) UTP.
+    category: speaking
+    pictures: 3
+  - id: adc_github
+    name: UTP App Dev Club Git & GitHub Workshop
+    summary: Speaker
+    description:
+      "Organized and spoke for Git & GitHub workshop with UTP App Dev Club"
+    category: speaking
+    pictures: 3
   - id: fave
     name: Fave Internship
     summary: Software Engineer Intern (Backend Team)
@@ -23,33 +107,9 @@ projects:
       - Practiced Agile Methodologies<br>"
     category: work
     pictures: 5
-  - id: sedex42
-    name: 42nd Science & Engineering Design Exhibition
-    summary: Chairman's Award
-    description:
-      "Won the Chairman's Award out of 160 teams that participated by presenting
-      the project Aide Glass, a low cost transcribing smart glasses for the hearing impaired."
-    category: competition
-    pictures: 4
-  - id: ium2020
-    name: iUM Disrupt Hackathon 2020
-    summary: First Runner Up
-    description:
-      "Led a team of 3 inn building a COVID-19 AI-based pre-assessment app along with doctor 
-      apppointment booking and E-medical record. Secured the 2nd Place out of 30+ teams (100+ participants)."
-    category: competition
-    pictures: 2
-  - id: dsckitahack
-    name: DSC Kita Hack
-    summary: 2nd Place
-    description:
-      "DSC Kita Hack is an online hackathon by DSC Malaysia and Google Developers during COVID-19 season. 
-      We built a food aid management system to ease the food distribution process and prevent hoarding and fraud during the COVID-19 crisis."
-    category: competition
-    pictures: 2
   - id: robocon18
     name: Robocon 2018
-    summary: Top 16 Team in Malaysia (Main Programmer)
+    summary: Top 8 Team in Malaysia (Lead Programmer)
     description: 
       "I participated in Robocon 2018 Malaysia along as Petrobot (Robotic Society in my university) member as the Main Programmer in the team.<br>
       <br>
@@ -60,78 +120,59 @@ projects:
       - Coded positioning algorithm to recieve passed ball accurately"
     category: competition
     pictures: 5
-  - id: dsc_flutter_1
-    name: Flutter Workshop
-    summary: Mentor + Speaker
-    description: 
-      The workshop aim to introduce mobile app development to the students in our university. 
-      We guided them from installation and setup to the final result which is a movies app and stopwatch app.
-    category: event
-    pictures: 5
   - id: rpi_workshop
     name: Raspberry Pi Workshop
     summary: Mentor + Speaker
     description: The workshop aim to introduce Raspberry Pi to the students in our university. We guided them from installation and setup to the final result which is an LED controlled telegram bot.
-    category: event
+    category: speaking
     pictures: 7
-  - id: dsc_github
-    name: DSC GitHub Workshop
-    summary: Speaker
-    description: Hands-on Git & GitHub workshop conducted by Developer Student Club (DSC) UTP.
-    category: event
-    pictures: 3
-  - id: adc_github
-    name: UTP App Dev Club Git & GitHub Workshop
-    summary: Speaker
-    description:
-      "Organized and spoke for Git & GitHub workshop with UTP App Dev Club"
-    category: event
-    pictures: 3
-  - id: apuboh19
-    name: APU Battle of Hackers 2019 CTF
-    summary: Finalist | Rank 9
-    description:
-      "Led and mentored 2 students to participate in an intervarsity
-       cybersecurity Capture The Flag competition as UTP representative.
-       Managed to rank 9 out of 50+ teams in Malaysia."
-    category: competition
-    pictures: 4
-  - id: reboot
-    name: Reboot The Earth Hackathon
-    summary: Finalist 
-    description: 
-      "A global hackathon organized by United Nation at UN Technology Innovation Labs (UNTIL).
-      Developed a prototype of Zed.ai, an out of the box AI solution
-      dedicated to combat against climate change. Zed.ai enables
-      unskilled individuals to use robust AI tools against climate change."
-    category: competition
-    pictures: 4
-  - id: abcde19
-    name: AI and Big Data Challenge for Data Engineer (ABCDE) 2019
-    summary: Top 20
-    description: 
-      "Developed SNAP, a dashboard Rails application that predicts
-        product sales and gives recommendation on asset management
-        using linear regression."
-    category: competition
-    pictures: 2
-  - id: unblockathon
-    name: Unblockathon 2019
-    summary: Top 20
-    description: 
-      "Unblockathon is a blockchain themed hackathon with reality show element.
-        Top 20 out of 80+ teams that participated."
-    category: competition
-    pictures: 4
-  - id: iarc
-    name: International Advanced Robotic Competition
-    summary: Technical & Media Committee
-    description: A robotic competition held on Universiti Teknologi Petronas. My task covered banner design, poster design, prompter and managing the projector during the event.
-    category: event
-    pictures: 7
-  - id: sedex
-    name: Science & Engineering Design Exhibition 40 (SEDEX 40)
-    summary: Promotion & Publication Committee
-    description: SEDEX is a competition which are mostly for students who are doing their Final Year Project as well as Engineering Team Project. However any studenst are still welcome to join. My task are mostly design such as poster design, certificate, souvenir design etc.
-    category: event
-    pictures: 8 
+
+
+  # - id: apuboh19
+  #   name: APU Battle of Hackers 2019 CTF
+  #   summary: Finalist | Rank 9
+  #   description:
+  #     "Led and mentored 2 students to participate in an intervarsity
+  #      cybersecurity Capture The Flag competition as UTP representative.
+  #      Managed to rank 9 out of 50+ teams in Malaysia."
+  #   category: competition
+  #   pictures: 4
+  # - id: reboot
+  #   name: Reboot The Earth Hackathon
+  #   summary: Finalist 
+  #   description: 
+  #     "A global hackathon organized by United Nation at UN Technology Innovation Labs (UNTIL).
+  #     Developed a prototype of Zed.ai, an out of the box AI solution
+  #     dedicated to combat against climate change. Zed.ai enables
+  #     unskilled individuals to use robust AI tools against climate change."
+  #   category: competition
+  #   pictures: 4
+  # - id: abcde19
+  #   name: AI and Big Data Challenge for Data Engineer (ABCDE) 2019
+  #   summary: Top 20
+  #   description: 
+  #     "Developed SNAP, a dashboard Rails application that predicts
+  #       product sales and gives recommendation on asset management
+  #       using linear regression."
+  #   category: competition
+  #   pictures: 2
+  # - id: unblockathon
+  #   name: Unblockathon 2019
+  #   summary: Top 20
+  #   description: 
+  #     "Unblockathon is a blockchain themed hackathon with reality show element.
+  #       Top 20 out of 80+ teams that participated."
+  #   category: competition
+  #   pictures: 4
+  # - id: iarc
+  #   name: International Advanced Robotic Competition
+  #   summary: Technical & Media Committee
+  #   description: A robotic competition held on Universiti Teknologi Petronas. My task covered banner design, poster design, prompter and managing the projector during the event.
+  #   category: event
+  #   pictures: 7
+  # - id: sedex
+  #   name: Science & Engineering Design Exhibition 40 (SEDEX 40)
+  #   summary: Promotion & Publication Committee
+  #   description: SEDEX is a competition which are mostly for students who are doing their Final Year Project as well as Engineering Team Project. However any studenst are still welcome to join. My task are mostly design such as poster design, certificate, souvenir design etc.
+  #   category: event
+  #   pictures: 8 
