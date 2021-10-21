@@ -9,6 +9,20 @@ categories:
     class_name: electronics
 
 projects:
+  - id: creativegan
+    name: CreativeGAN
+    summary: Conference Paper
+    description: 
+      "Conference paper by MIT DeCoDE lab accepted at ASME IDETC/CIE 2021 Conference. This paper proposes an automated method, named CreativeGAN, for generating
+      novel designs. It does so by identifying components that make a
+      design unique and modifying a GAN model such that it becomes
+      more likely to generate designs with identified unique components. The method combines state-of-art novelty detection, segmentation, novelty localization, rewriting, and generative models
+      for creative design synthesis. Using a dataset of bicycle designs,
+      we demonstrate that the method can create new bicycle designs
+      with unique frames and handles, and generalize rare novelties"
+    category: ml
+    pictures: 3
+    link: http://decode.mit.edu/projects/creativegan
   - id: gancreate
     name: GANCREATE
     summary: AI-Powered Animation Tool
