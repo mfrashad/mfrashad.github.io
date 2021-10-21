@@ -91,6 +91,13 @@ projects:
       "Organized and spoke for Git & GitHub workshop with UTP App Dev Club"
     category: speaking
     pictures: 3
+  - id: lhdshare
+    name: "Local Hack Day: Share"
+    summary: Winner
+    description:
+      "Won the Best Open Source Project on GitHub’s award out of 292 participants globally in Local Hack Day: Share competition."
+    category: competition
+    pictures: 2
   - id: fave
     name: Fave Internship
     summary: Software Engineer Intern (Backend Team)
