@@ -4,14 +4,34 @@
     <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
     <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
 
-    <div id="medium-widget"></div>
-    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@mfrashad","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
-    <a href="https://medium.com/@mfrashad" target="_blank" >
+    <div class="flex row wrap">
+      <div class="flex row-gt-sm wrap">
+        {% for article in site.data.blog %}
+        <a href="{{article.url}}" target="_blank">
+          <div class="blog-wrap" data-animation="fade-in">
+            <div class="fade-wrap">
+              <div class="thumb" style="background: url('img/blog/{{article.image}}') center center/cover;">
+              </div>
+              <div class="label bold">{{article.title}}</div>
+              <div class="date">{{article.date}} · {{article.length}} min read</div>
+              <div class="bar"></div>
+              <div class="text">
+                <p>{{article.description}}
+                </p>
+              </div>
+              <div>
+                <i class="mdi mdi-thumb-up"></i> {{article.claps}}
+              </div>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    <a href="https://medium.com/@mfrashad" target="_blank">
       <button class="expand-button">
         Visit Blog
         <i class="mdi mdi-chevron-double-right page-link"></i>
       </button>
     </a>
-  </div>
 </section>

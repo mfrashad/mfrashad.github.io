@@ -1200,11 +1200,11 @@ footer {
     
 @media screen and (min-width: 1280px) {
   #blog .blog-wrap  {
-    width: 600px;
+    width: 500px;
     margin: 0 0 50px 40px; 
   }
   #tutorials .blog-wrap {
-    width: 600px;
+    width: 500px;
     margin: 0 0 50px 40px;
   }
 }

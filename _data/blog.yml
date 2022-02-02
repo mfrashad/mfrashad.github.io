@@ -1,0 +1,28 @@
+- title: How I built an AI Text-to-Art Generator
+  url: https://towardsdatascience.com/how-i-built-an-ai-text-to-art-generator-a0c0f6d6f59f
+  description: A detailed, step-by-step write-up on how I built Text2Art.com
+  image: article1.gif
+  date: 2 October 2021
+  claps: 889
+  length: 11
+- title: How to Train StyleGAN2 with Custom Dataset
+  url: https://towardsdatascience.com/how-to-train-stylegan2-ada-with-custom-dataset-dc268ff70544
+  description: Learn how to train an AI to generate any images you want
+  image: article2.gif
+  date: 8 June 2021
+  claps: 54
+  length: 5
+- title: Animating Yourself as a Disney Character with AI
+  url: https://towardsdatascience.com/animating-yourself-as-a-disney-character-with-ai-78af337d4081
+  description: Sneak peek into the future of digital arts
+  image: article3.gif
+  date: 27 October 2020
+  claps: 198
+  length: 9
+- title: Generating Anime Characters with StyleGAN2
+  url: https://towardsdatascience.com/generating-anime-characters-with-stylegan2-6f8ae59e237b
+  description: Learn how to generate this cool anime faces interpolation
+  image: article4.gif
+  date: 16 September 2020
+  claps: 364
+  length: 8
