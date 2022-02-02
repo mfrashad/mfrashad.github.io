@@ -11,17 +11,17 @@
       <div class="flex row-gt-sm">
         {% assign offset = forloop.index0 | times: 2 %}
         {% for feature in site.data.person.about_features limit:2 offset:offset %}
-          <div class="flex bullet-wrap ">
-            <div class="hex-wrap waypoint" data-animation="flip-in-x">
-              <div class="hexagon">
-                <i class="{{feature.icon_class}}"></i>
-              </div>
-            </div>
-            <div class="waypoint" data-animation="fade-in">
-              <div class="label bold">{{feature.name}} </div>
-              <div>{{feature.description}} </div>
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="{{feature.icon_class}}"></i>
             </div>
           </div>
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold">{{feature.name}} </div>
+            <div>{{feature.description}} </div>
+          </div>
+        </div>
         {% endfor %}
       </div>
       {% endfor %}

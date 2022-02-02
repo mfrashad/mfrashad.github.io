@@ -1,0 +1,25 @@
+- company: Massachusetts Institute of Technology
+  title: Research Collaborator
+  period: Oct 2020 - Jul 2021
+  description: "● Co-authored 'CreativeGAN' conference paper for ASME IDETC-CIE with MIT DeCoDE Lab.
+    <br>● Trained segmentation, generative, and novelty detection networks on a new dataset and integrated the networks for creative bike design synthesis.
+    <br>● Python, Tensorflow, PyTorch, OpenCV, High-Performance Computing (HPC)"
+- company: ViTrox Corporation 
+  title: Deep Learning Intern
+  period: Jun 2020 - Dec 2020
+  description: "● Developed anomaly detection model for component defects with 90% accuracy.
+    <br>● Implemented a few-shot classification model for electrical components
+    <br>● Increased reporting efficiency by 30x by automating model performance report generation.
+    <br>● Ported a web application for data labeling into a desktop application.
+    <br>● Python, Django, PyTorch, Keras, JavaScript, Angular, Electron.js, Unix, Docker"
+- company: Freelance Developer 
+  title: 
+  period: Sep 2018 – Present
+  description: "● Developed 1 chatbot, 5 ML tasks, 6 websites, and 4 mobile apps for businesses/individuals.
+    <br>● Python, Ruby on Rails, JavaScript, Node.js, React Native, HTML/CSS, GCP, AWS, Firebase"
+- company: Fave
+  title: Software Engineer Intern 
+  period: May 2018 - Aug 2018
+  description: "● Fixed various bugs, wrote unit tests, and refactored a large Rails app.
+    <br>● Increased reporting efficiency by 120x by automating PDF report generation.
+    <br>● Ruby on Rails, PostgreSQL, AWS, Git, CI/CD, Sentry, JIRA, Agile, and Kanban"

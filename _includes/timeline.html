@@ -1,0 +1,22 @@
+<section id="timeline">
+    <div class="container flex">
+
+        <div class="header waypoint" data-animation="slide-in-left">EXPERIENCE</div>
+        <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+        <div class="flex row label-wrap">
+
+            <div id="experience-timeline">
+                {% for job in site.data.timeline %}
+                <div data-date="{{ job.period }}">
+                    <h3>{{ job.company }}</h3>
+                    <h4>{{ job.title }}</h4>
+                    <p>
+                        {{ job.description }}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+</section>
