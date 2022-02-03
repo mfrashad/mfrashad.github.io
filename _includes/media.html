@@ -1,0 +1,14 @@
+<section id="media">
+    <div class="container flex">
+
+        <div class="header waypoint" data-animation="slide-in-left">MEDIA</div>
+        <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+        <div style="text-align: left;">
+            {% for article in site.data.media %}
+            <a href="{{article.link}}">
+                <p>{{article.date}} - {{article.title}} - <i>{{article.publisher}}</i></p>
+            </a>
+            {% endfor %}
+        </div>
+</section>

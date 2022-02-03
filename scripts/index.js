@@ -79,6 +79,7 @@ $(function () {
     if (pos2 > $('#portfolio').offset().top) { highlightLink('portfolio'); }
     if (pos2 > $('#experience').offset().top) { highlightLink('experience'); }
     if (pos2 > $('#testimonials').offset().top) { highlightLink('testimonials'); }
+    if (pos2 > $('#media').offset().top) { highlightLink('media'); }
     if (pos2 > $('#contact').offset().top ||
       pos + $(window).height() === $(document).height()) {
       highlightLink('contact');
