@@ -477,8 +477,8 @@ section {
   #about .skills-wrapper {
     align-items: flex-start;
     width: 100%; }
-    #about .skills-wrapper .me {
-      height: 200px; }
+    #about .skills-wrapper .me img{
+      width: 360px; }
     #about .skills-wrapper .label {
       margin: 20px 0 15px 0; }
   #about .hexagon i {
@@ -1105,8 +1105,10 @@ footer {
       height: 230px; }
     #about .skills-wrapper > .flex:first-child {
       padding: 0 50px 0 50px; }
-    #about .skills-wrapper .me {
-      height: 250px; }
+    #about .skills-wrapper .me img {
+      margin-left: 50%;
+      transform: translateX(-50%);
+      width: 720px; }
     #about .bar {
       height: 28px;
       margin: 0 0 15px 0;
