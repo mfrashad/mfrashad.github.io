@@ -18,14 +18,15 @@ about_features:
     description: React Native, Flutter, Unity3D, C#
     icon_class: mdi mdi-gamepad-variant
 
-about: "I'm a machine learning engineer and a fullstack developer. \n
+about: "I'm a fullstack developer and machine learning engineer specialing in generative AI and computer vision. Co-authored a research paper with MIT in generative AI when I was 19  and worked in generative AI projects since then. I'm also a certified freediver and PADI rescue diver, hobbyist photographer and climber. \n
 <br><br>At 15 years old, I skipped highschool and entered university as the youngest student. \n
 <br><br>At 16, I published 2 mobile games with 2K total installs. \n
 <br><br>At 17, I was the youngest software engineering intern at Fave and started freelancing. I have worked with 20+ clients since then. \n
 <br><br>At 18, I started my own programming club, organized 7+ workshops, mentored students, and led several teams to competitions. \n
-<br><br>At 19, I co-authored a machine learning paper with MIT, have won 5+ hackathons, wrote 7+ technical articles with 100K+ total views, and also obtained 2 Microsoft certifications (Azure AI Engineer & Data Scientist Associate).
+<br><br>At 19, I co-authored a machine learning paper with MIT, have won 5+ hackathons, wrote 7+ technical blog articles with 100K+ total views, and also obtained 2 Microsoft certifications (Azure AI Engineer & Data Scientist Associate).
 <br><br>At 20, I graduated as valedictorian of my class with 4 academic awards and was awarded Top 10 Young Talent by MonStar Award out of 900+ nominees. \n
-<br><br>At 21, I freelanced as ML engineer/researcher specializing on generative AI with companies and individuals internationally while exploring the world by trying new activities. \n"
+<br><br>At 21, I freelanced as ML engineer/researcher specializing on generative AI with companies and individuals internationally. \n"
+
 
 skills:
   - name: HTML/CSS
