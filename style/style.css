@@ -85,12 +85,18 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.post-container {
+  max-width: 600px;
+  margin: 8px;
+  text-align: left;
+}
+
 body {
   color: #fff;
   font-family: 'Raleway';
   text-align: center;
   margin: 0px;
-  font-size: 8pt;
+  font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; }
@@ -427,7 +433,7 @@ nav {
 section {
   padding: 70px 0 70px 0;
   color: #616161;
-  line-height: 11pt;
+  line-height: 20px;
   position: relative; }
   section .container {
     max-width: 1200px;

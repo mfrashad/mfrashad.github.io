@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rashad's Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+      
+        <!-- HOSTED -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+        <link href="/fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+      
+        <!-- LOCAL -->
+        <link rel="stylesheet" href="/style/style.css">
+        <link rel='shortcut icon' href='/favicon.png' type='image/png'/>
+      
+        <!-- HOSTED -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+      
+        <meta property="og:title" content="Rashad's Portfolio" />
+        <!-- Name, not URL (e.g. Apple, not apple.com) -->
+        <!--meta property="og:site_name" content="" /-->
+        <!-- URL. Should match canonical URL for SEO. Unique identifier for your article. -->
+        <meta property="og:url" content="mfrashad.com" />
+        <!-- OPTIONAL description. 2-4 sentences. -->
+        <meta property="og:description" content="Rashad's personal website containing his projects and experience" />
+        <!-- Image for article. Facebook suggests at least 1200 x 630. -->
+        <meta property="og:image" content="https://mfrashad.github.io/img/og-image.png" />
+      
+        <meta name="referrer" content="origin">
+      
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128948221-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-128948221-2');
+        </script>
+      
+        <!-- LOCAL -->
+        <script src="/scripts/pt.min.js"></script>
+        <script src="/scripts/modal.js"></script>
+        <script src="/scripts/typing.js"></script>
+      
+      </head>
+<body>
+    <nav class="flex fixed">
+        <h1 class="logo">RASHAD</h1>
+        <div class="link-wrap">
+          <a href="/"><div class="page-link" dest="home">home</div></a>
+          <div class="page-link" dest="about">about</div>
+          <div class="page-link" dest="timeline">experience</div>
+          <div class="active page-link" dest="blog">blog</div>
+          <div class="page-link" dest="portfolio">portfolio</div>
+          <div class="page-link" dest="media">media</div>
+          <div class="page-link" dest="contact">contact</div>
+        </div>
+        <i class="mdi mdi-menu"></i>
+    </nav>
+<div class="overflow-wrap">
+    
+<section class="flex">
+    <div class="post-container">
+        <h1 style="text-align: center;">{{ page.title }}</h1>
+        {{ content }}
+    </div>
+</section>
+
+</div>
+
+</body>
+</html>

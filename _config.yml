@@ -25,10 +25,14 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+permalink: /:title
+paginate: 5
+paginate_path: "/blog/page:num/"
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
