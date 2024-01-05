@@ -4,13 +4,21 @@
     <picture class="me">
       <source srcset="img/banner.png" media="(min-width: 500px)">
       <img src="img/banner-portrait.png" alt="Some picture">
-  </picture>
+    </picture>
     <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-    <div class="label bold">About me</div>
-    <div>
-      <p>{{site.data.person.about}}</p>
+    <div class="label bold">About Me</div>
+    <div id="about-content">
+      <div id="excerpt-container" class="fade-effect">
+          <p id="excerpt">{{site.data.person.about | truncate: 500, "..." }}</p>
+      </div>
+      <p id="full-content" class="hidden">{{site.data.person.about}}</p>
+      <button id="read-more-btn" dest="about-content">
+        Read More
+        <i class="mdi mdi-chevron-double-down page-link"></i>
+      </button>
     </div>
   </div>
+  
 
   <!-- <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
     {% for skill in site.data.person.skills %}

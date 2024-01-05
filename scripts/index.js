@@ -123,8 +123,22 @@ $(function () {
     $('.link-wrap').toggleClass('visible');
   });
 
+  // ABOUT SHOW MORE / SHOW LESS FUNCTION
+  $('#read-more-btn').on('click', function () {
+    $(this).siblings('#full-content').toggleClass('hidden');
+    $(this).siblings('#excerpt-container').toggleClass('hidden');
+    var anchor = $(this).attr("dest");
+    if ($(this).siblings('#excerpt-container').hasClass('hidden')) {
+      console.log('less')
+      $(this).html("Show Less <i class='mdi mdi-chevron-double-up'></i>");
+    } else {
+      console.log('more')
+      $(this).html("Show More <i class='mdi mdi-chevron-double-down'></i>");
+      scrollToAnchor(anchor);
+    }
+  });
 
-  // SHOW MORE / SHOW LESS FUNCTION
+  // PORTFOLIO SHOW MORE / SHOW LESS FUNCTION
   $('.expand-button').on('click', function () {
     $(this).siblings('.collapsible').toggleClass('-expanded');
     var anchor = $(this).attr("dest");
