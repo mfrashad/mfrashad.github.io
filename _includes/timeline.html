@@ -4,9 +4,21 @@
         <div class="header waypoint" data-animation="slide-in-left">EXPERIENCE</div>
         <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
 
-        <div class="flex row label-wrap">
+        <div class="flex label-wrap">
 
-            <div id="experience-timeline">
+            <div class="experience-timeline excerpt-container">
+                {% for job in site.data.timeline limit:2 %}
+                <div data-date="{{ job.period }}">
+                    <h3>{{ job.company }}</h3>
+                    <h4>{{ job.title }}</h4>
+                    <p>
+                        {{ job.description }}
+                    </p>
+                </div>
+                {% endfor %}
+                
+            </div>
+            <div class="experience-timeline full-content hidden">
                 {% for job in site.data.timeline %}
                 <div data-date="{{ job.period }}">
                     <h3>{{ job.company }}</h3>
@@ -16,7 +28,11 @@
                     </p>
                 </div>
                 {% endfor %}
+                
             </div>
-
+            <button class="read-more-btn" dest="timeline">
+                Read More
+                <i class="mdi mdi-chevron-double-down page-link"></i>
+              </button>
         </div>
 </section>

@@ -125,7 +125,7 @@ body {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Adjust the color to match your background */
 }
 
-.expand-button, #read-more-btn{
+.expand-button, .read-more-btn{
   border: none;
   color: #fff;
   padding: 10px 20px;
@@ -135,7 +135,7 @@ body {
   transition: all 0.6s;
 }
 
-.expand-button:hover, #read-more-btn:hover {
+.expand-button:hover, .read-more-btn:hover {
   background-color: #fb1f79;
   color: #fff;
 }
@@ -659,12 +659,12 @@ section {
           opacity: 1;
           bottom: 24%; }
 
-  #experience-timeline {
+  .experience-timeline {
     margin: 30px auto 0 auto;
     position: relative;
     max-width: 1000px;
   }
-  #experience-timeline:before {
+  .experience-timeline:before {
     position: absolute;
     content: '';
     top: 0;
@@ -676,7 +676,7 @@ section {
     background: #c51675;
     z-index: 0;
   }
-  #experience-timeline:after {
+  .experience-timeline:after {
     position: absolute;
     content: '';
     width: 3px;
@@ -1368,7 +1368,7 @@ blockquote:before {
 }
 
 @media only screen and (max-width: 750px) {
-  #experience-timeline:before, #experience-timeline:after {
+  .experience-timeline:before, .experience-timeline:after {
     left: 23px;
  }
   .vtimeline-date {

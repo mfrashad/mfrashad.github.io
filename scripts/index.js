@@ -24,7 +24,7 @@ $(function () {
     $('nav').addClass('desk');
   }
 
-  $('#experience-timeline').each(function () {
+  $('.experience-timeline').each(function () {
 
     $this = $(this); // Store reference to this
     $userContent = $this.children('div'); // user content
@@ -124,11 +124,11 @@ $(function () {
   });
 
   // ABOUT SHOW MORE / SHOW LESS FUNCTION
-  $('#read-more-btn').on('click', function () {
-    $(this).siblings('#full-content').toggleClass('hidden');
-    $(this).siblings('#excerpt-container').toggleClass('hidden');
+  $('.read-more-btn').on('click', function () {
+    $(this).siblings('.full-content').toggleClass('hidden');
+    $(this).siblings('.excerpt-container').toggleClass('hidden');
     var anchor = $(this).attr("dest");
-    if ($(this).siblings('#excerpt-container').hasClass('hidden')) {
+    if ($(this).siblings('.excerpt-container').hasClass('hidden')) {
       console.log('less')
       $(this).html("Show Less <i class='mdi mdi-chevron-double-up'></i>");
     } else {
