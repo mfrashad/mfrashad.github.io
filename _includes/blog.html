@@ -1,7 +1,29 @@
+<section id="personal-blog">
+  <div class="container flex">
+
+      <div class="header waypoint" data-animation="slide-in-left">PERSONAL BLOG</div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+      <div style="text-align: left; margin-bottom: 50px">
+          {% for post in site.posts limit:5 %}
+          <a href="{{article.link}}">
+              <p><strong>{{post.title}}</strong></p>
+              <span>{{ post.date | date: "%-d/%m/%Y"}}</span>
+          </a>
+          {% endfor %}
+      </div>
+      <a href="/blog">
+        <button class="expand-button">
+          Read Blog
+          <i class="mdi mdi-chevron-double-right page-link"></i>
+        </button>
+      </a>
+</section>
+
 <section id="blog">
   <div class="container flex">
 
-    <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
+    <div class="header waypoint" data-animation="slide-in-left">TECH BLOG</div>
     <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
 
     <div class="flex row wrap">

@@ -91,6 +91,12 @@ a {
   text-align: left;
 }
 
+#personal-blog p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #df1e6e;
+}
+
 body {
   color: #fff;
   font-family: 'Raleway';
@@ -250,7 +256,7 @@ body {
   position: relative; }
 
 .header-bar {
-  margin: 25px 0 75px 0;
+  margin: 25px 0 25px 0;
   width: 70px;
   height: 4px;
   background: #444649; }
@@ -1050,7 +1056,7 @@ footer {
     font-size: 30pt; }
 
   .header-bar {
-    margin: 25px 0 100px 0; }
+    margin: 25px 0 50px 0; }
 
   .label {
     font-size: 18pt; }
@@ -1281,6 +1287,10 @@ footer {
     max-width: 50%;
     max-height: 100%;
     box-sizing: border-box; }
+
+  #personal-blog p {
+    font-size: 1.6rem;
+  }
 
   #about .bars-wrap {
     margin: 0 0 0 0; }
