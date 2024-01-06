@@ -1,13 +1,15 @@
-<div class="skills-wrapper flex row-gt-sm">
-  <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+<div class="skills-wrapper flex wrap row-gt-sm">
+  <div class="flex row-gt-sm waypoint" data-animation="slide-in-left">
     <!-- <img src="img/banner-navy.png" class="me"> -->
+    
     <picture class="me">
-      <source srcset="img/banner.png" media="(min-width: 500px)">
-      <img src="img/banner-portrait.png" alt="Some picture">
+      <source srcset="img/me-3-4-resized.jpg" width="100px" media="(min-width: 500px)">
+      <img src="img/me-3-4-resized.jpg" width="100px" alt="Some picture">
     </picture>
     <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-    <div class="label bold">About Me</div>
+    
     <div id="about-content">
+      <div class="label bold">About Me</div>
       <div id="excerpt-container" class="fade-effect">
           <p id="excerpt">{{site.data.person.about | truncate: 500, "..." }}</p>
       </div>

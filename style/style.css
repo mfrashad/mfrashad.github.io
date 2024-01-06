@@ -504,7 +504,8 @@ section {
     align-items: flex-start;
     width: 100%; }
     #about .skills-wrapper .me img{
-      width: 360px; }
+      border-radius: 20px;
+      width: 240px; }
     #about .skills-wrapper .label {
       margin: 20px 0 15px 0; }
   #about .hexagon i {
@@ -1134,7 +1135,8 @@ footer {
     #about .skills-wrapper .me img {
       margin-left: 50%;
       transform: translateX(-50%);
-      width: 720px; }
+      border-radius: 40px;
+      width: 320px; }
     #about .bar {
       height: 28px;
       margin: 0 0 15px 0;
@@ -1285,7 +1287,7 @@ footer {
   #about .skills-wrapper {
     margin: 50px 0 0 0; }
     #about .skills-wrapper .me {
-      margin: 0; }
+      margin: 50px; }
   #about .bar {
     max-width: 90%; }
   #about .bullet-wrap {
