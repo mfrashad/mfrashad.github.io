@@ -86,10 +86,25 @@ a {
   color: inherit; }
 
 .post-container {
+  width: 90%;
   max-width: 600px;
   margin: 8px;
   text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #010101
 }
+
+.post-container p, .post-container li{
+  font-family: 'Georgia,serif';
+}
+
+.post-container img{
+  max-width: 100%;
+  text-align: center;
+}
+
+  
 
 #personal-blog p {
   font-size: 1.2rem;
@@ -1398,6 +1413,11 @@ blockquote:before {
 }
 
 @media screen and (min-width: 600px){
+  .post-container {
+    max-width: 640px;
+    font-size: 20px;
+  }
+
   #testimonials .testimonial-block {
     width: 500px;
     margin: 20px;
@@ -1405,7 +1425,7 @@ blockquote:before {
   }
   blockquote {
     font-family: Georgia, serif;
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
     width: 500px;
     margin: 0.25em 0;

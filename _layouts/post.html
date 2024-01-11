@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Rashad's Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
       
         <!-- HOSTED -->
@@ -17,16 +16,25 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
-      
-        <meta property="og:title" content="Rashad's Portfolio" />
-        <!-- Name, not URL (e.g. Apple, not apple.com) -->
-        <!--meta property="og:site_name" content="" /-->
-        <!-- URL. Should match canonical URL for SEO. Unique identifier for your article. -->
-        <meta property="og:url" content="mfrashad.com" />
-        <!-- OPTIONAL description. 2-4 sentences. -->
-        <meta property="og:description" content="Rashad's personal website containing his projects and experience" />
-        <!-- Image for article. Facebook suggests at least 1200 x 630. -->
-        <meta property="og:image" content="https://mfrashad.github.io/img/og-image.png" />
+
+        <title>{{ page.title }}</title>
+        <meta name="description" content="{{ page.excerpt | escape }}">
+        <meta name="author" content="{{ page.author }}">
+        <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
+        
+        <!-- Open Graph meta tags for Facebook -->
+        <meta property="og:title" content="{{ page.title }} - Rashad">
+        <meta property="og:description" content="{{ page.excerpt | escape }}">
+        <meta property="og:image" content="{{ site.url }}/{{ page.image }}"> <!-- Replace with the path to your featured image -->
+        <meta property="og:url" content="{{ page.url | absolute_url }}">
+        <meta property="og:type" content="article">
+
+        <!-- Twitter Card meta tags for Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.excerpt | escape }}">
+        <meta name="twitter:image" content="{{ site.url }}/assets/images/your-image.jpg"> <!-- Replace with the path to your featured image -->
+        <meta name="twitter:url" content="{{ page.url | absolute_url }}">
       
         <meta name="referrer" content="origin">
       
@@ -63,7 +71,6 @@
     
 <section class="flex">
     <div class="post-container">
-        <h1 style="text-align: center;">{{ page.title }}</h1>
         {{ content }}
     </div>
 </section>
