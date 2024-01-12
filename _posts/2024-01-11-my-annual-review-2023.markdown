@@ -36,7 +36,7 @@ I will first reflect what went well and what I learned from it. Then, identify w
 
 ## What Went Well?
 
-### 1. Travel & Adventure
+### I. Travel & Adventure
 
 In April, I went on a solo trip to Japan and Philippines. I had been aiming to go there specifically because I wanted to tick off my bucket list on snow sports and diving. 
 
@@ -119,7 +119,7 @@ Anyway, I was happy I got my Molchanovs freediving cert with my best depth at 15
 
 Overall, after constantly pushing myself to near-drowning, I definitely become more confident in being underwater.
 
-### 2. Self-Improvement
+### II. Self-Improvement
 
 After all my traveling and diving, I started to run low on money. 
 
@@ -161,7 +161,7 @@ In the end, I managed to kept the habits until the end of the year. Which is why
 
 
 
-### 3. Fitness
+### III. Fitness
 
 Fitness was the only thing I was able to keep fairly consistent over the full year. 
 
@@ -220,7 +220,7 @@ With those rules, I managed to keep a 33 day run streak from 29 Nov until the en
 ![](attachment/a1fe311e91b202918240d2577b2ab99b.webp)
 ## What didn't go well this year
 
-### 1. Writing
+### I. Writing
 
 I set a goal of writing 1 tech article every month in my medium blog at the start of the year. How much did I write this year? Zero.  
 
@@ -237,7 +237,7 @@ What can I improve in the future?
 2. Start writing atomic notes of whatever I learned and use that as a starting point. I discovered about Personal Knowledge System and the Zettelkasen method this year. They showed me the power of notes and how it can make writing easier by not starting from a blank page.
 3. Start a writing habit. Set aside a small time everyday to write my article.
 
-### 2. Health
+### II. Health
 
 Many of my plans and goals started to derail in February. 
 
@@ -247,7 +247,7 @@ The unexpected medical issue was a frustrating and humbling experience. Especial
 
 The experience reminds me about the unpredictability of life and to be more grateful. It was a reminder that my plans can be derailed at any moment and that my health is a gift that shouldn't be taken for granted.
 
-### 3. Work
+### III. Work
 
 With the medical issue in February and March. I had problem focusing at work with all the discomfort and pain. So I ended my contracted works. Thinking of just restarting the contract or finding new clients altogether once I recover.  
 
@@ -264,7 +264,7 @@ What can I improve in the future?
 3. Block all distractions during work sessions. Use tool like Rize.
 4. Consciously practice bias for action.
 
-### 4. Social Life
+### IV. Social Life
 
 My first month was full with social interactions. 
 
@@ -309,7 +309,7 @@ Anyway, here are some of my goals for 2024:
 
 (The way I set goals is I try to set a specific goals with trackable metric and also the a system or daily action to achieve it.)
 
-#### Goals
+#### Outcomes
 - 366 running day in a year
 - 1000km total year running mileage
 - Run a marathon

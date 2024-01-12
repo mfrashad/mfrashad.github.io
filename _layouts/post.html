@@ -75,6 +75,7 @@
       {{ content | toc_only }}
     </div>
     <div id="post-container" class="post-container">
+      <small>Published at {{ page.date | date: "%-d/%m/%Y" }}</small>
       {{ content | inject_anchors }}
     </div>
 </section>
