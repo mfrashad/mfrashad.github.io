@@ -112,7 +112,6 @@ $(function () {
     }, 400);
   }
 
-
   // EVENT HANDLERS
   $('.page-link').click(function () {
     var anchor = $(this).attr("dest");

@@ -67,15 +67,58 @@
         </div>
         <i class="mdi mdi-menu"></i>
     </nav>
-<div class="overflow-wrap">
     
-<section class="flex">
-    <div class="post-container">
-        {{ content }}
+<section style="display: flex; justify-content: center; padding: 20;">
+    <div id="table-of-contents">
+      <strong>{{ page.title }}</strong>
+      <hr>
+      {{ content | toc_only }}
+    </div>
+    <div id="post-container" class="post-container">
+      {{ content | inject_anchors }}
     </div>
 </section>
+<script>
+  
+// Post TOC higlight and smooth scroll
+document.addEventListener("DOMContentLoaded", function() {
+  // Intersection Observer to highlight ToC entries
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          const id = entry.target.getAttribute('id');
+          const tocLink = document.querySelector(`#table-of-contents a[href="#${id}"]`);
 
-</div>
+          if (entry.isIntersecting && tocLink) {
+              document.querySelectorAll('#table-of-contents a').forEach(link => {
+                  link.classList.remove('active');
+              });
+              tocLink.classList.add('active');
+          }
+      });
+  }, { rootMargin: '0px 0px -40% 0px' });
 
+  // Observe each section
+  document.querySelectorAll('#post-container h2, #post-container h3, #post-container h4, #post-container h5, #post-container h6').forEach((heading) => {
+      const id = heading.getAttribute('id');
+      if (id) {
+          observer.observe(heading);
+      }
+  });
+  document.querySelectorAll('#table-of-contents a').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default anchor behavior
+
+        const href = this.getAttribute('href');
+        const offsetTop = document.querySelector(href).offsetTop;
+        const navbarHeight = 80; // Height of your fixed navbar
+
+        window.scrollTo({
+            top: offsetTop - navbarHeight, // Adjusts the position to be below the navbar
+            behavior: "smooth"
+        });
+    });
+  });
+});
+</script>
 </body>
 </html>

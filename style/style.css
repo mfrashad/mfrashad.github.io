@@ -92,7 +92,8 @@ a {
   text-align: left;
   font-size: 16px;
   line-height: 1.5;
-  color: #010101
+  color: #010101;
+  scroll-behavior: smooth;
 }
 
 .post-container p, .post-container li{
@@ -102,6 +103,54 @@ a {
 .post-container img{
   max-width: 100%;
   text-align: center;
+}
+
+#table-of-contents {
+  position: fixed;
+  top: 80px;
+  left:0px;
+  margin-left: 4%;
+  display: none;
+  font-size: 12px;
+  width: 20vw;
+}
+
+#table-of-contents ul {
+  list-style-type: none; /* Removes bullet points */
+  margin-bottom: 10px; /* Spacing between list items */
+  padding-left: 10px; /* Indentation for list items */
+  padding-top:5px;
+}
+
+#table-of-contents li {
+  margin-bottom: 5px; /* Spacing between list items */
+  padding-left: 20px; /* Indentation for list items */
+  text-align: left; /* Ensures text is left-aligned */
+}
+
+/* Style for the table of contents links */
+#table-of-contents a {
+  color: #555;
+  text-decoration: none;
+  padding-left: 16px;
+  display: block;
+  transition: padding-left 0.3s;
+}
+
+#table-of-contents a:hover {
+  padding-left: 20px;
+  transition: padding-left 0.2s;
+}
+
+/* Style for the active link in the table of contents */
+#table-of-contents a.active {
+  color: #0275d8;
+  font-weight: normal;
+  border-left: 4px solid #0275d8;
+  padding-left: 12px;
+  margin-left: -4px;
+  text-decoration: none;
+  transition: border-color 0.3s, padding-left 0.3s;
 }
 
   
@@ -121,6 +170,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; }
+  
 
 .panel-wrapper {
   position: relative;
@@ -1347,6 +1397,10 @@ footer {
   #tutorials .blog-wrap {
     width: 500px;
     margin: 0 0 50px 40px;
+  }
+
+  #table-of-contents {
+    display: block;
   }
 }
 
