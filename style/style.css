@@ -153,12 +153,14 @@ a {
   transition: border-color 0.3s, padding-left 0.3s;
 }
 
-  
-
 #personal-blog p {
   font-size: 1.2rem;
   margin-bottom: 5px;
   color: #df1e6e;
+}
+
+#media a, .post-container a {
+  text-decoration: underline;
 }
 
 body {
