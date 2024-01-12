@@ -562,6 +562,11 @@ section {
         top: 11px; }
       #home .button:hover .mdi {
         transform: rotate(90deg); }
+
+  #about-content {
+    max-width: 540px;
+  }
+
   #about .label-wrap .label {
     margin: 20px 0 10px 0; }
   #about .bullet-wrap {
