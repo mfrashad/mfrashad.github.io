@@ -1,28 +1,32 @@
 - title: How I built an AI Text-to-Art Generator
   url: https://towardsdatascience.com/how-i-built-an-ai-text-to-art-generator-a0c0f6d6f59f
   description: A detailed, step-by-step write-up on how I built Text2Art.com
-  image: article1.gif
+  image: article1.webm
   date: 2 October 2021
-  claps: 889
+  claps: 1.5k
+  views: 173K
   length: 11
 - title: How to Train StyleGAN2 with Custom Dataset
   url: https://towardsdatascience.com/how-to-train-stylegan2-ada-with-custom-dataset-dc268ff70544
   description: Learn how to train an AI to generate any images you want
-  image: article2.gif
+  image: article2.webm
   date: 8 June 2021
-  claps: 54
+  claps: 123
+  views: 32K
   length: 5
 - title: Animating Yourself as a Disney Character with AI
   url: https://towardsdatascience.com/animating-yourself-as-a-disney-character-with-ai-78af337d4081
   description: Sneak peek into the future of digital arts
-  image: article3.gif
+  image: article3.webm
   date: 27 October 2020
-  claps: 198
+  claps: 234
+  views: 41K
   length: 9
-- title: Generating Anime Characters with StyleGAN2
-  url: https://towardsdatascience.com/generating-anime-characters-with-stylegan2-6f8ae59e237b
-  description: Learn how to generate this cool anime faces interpolation
-  image: article4.gif
-  date: 16 September 2020
-  claps: 364
-  length: 8
+- title: How to Build an AI Fashion Designer
+  url: https://towardsdatascience.com/how-to-build-an-ai-fashion-designer-575b5e67915e?sk=34c34b521a9c71e1ed2f0f4efad4611b
+  description: Clothing semantic editing for fashion design using StyleGAN and GANSpace
+  image: article4.webm
+  date: 05 May 2022
+  claps: 277
+  views: 22K
+  length: 12

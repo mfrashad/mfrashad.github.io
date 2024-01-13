@@ -110,7 +110,7 @@ $(document).ready(function(){
       $('#modal #carousel').append(
         $("<div class='slide'></div>").css({
           width: $('.carousel-wrap').css('width'),
-          background: "url('img/slides/" + id + '-' + i + ".jpg') center center/cover",
+          background: "url('img/slides/" + id + '-' + i + ".webp') center center/cover",
           backgroundSize: 'cover'
         })
       );
