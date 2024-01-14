@@ -8,7 +8,7 @@
       <div class="flex row-gt-sm">
         {% for testimonial in site.data.testimonials %}
         <div class="testimonials-carousel">
-          <div class="testimonial-block"><img class="avatar" src="img/testimonial-{{forloop.index0}}.webp">
+          <div class="testimonial-block"><img class="avatar" src="img/testimonial-{{forloop.index0}}.webp" alt="profile picture of the person">
             <blockquote>{{testimonial.text}}</blockquote>
             <div class="label bold">{{testimonial.name}}</div>
             <p>{{testimonial.position}}</p>

@@ -37,7 +37,7 @@ CLONE="$TEMP/clone"
 # Build Jekyll site
 
 echo -e '\nBuilding Jekyll site:'
-rm -rf _site
+# rm -rf _site
 if [ -r "$SRC/$DEPLOY_CONFIG" ]; then
     bundle exec jekyll build --config "$SRC/$DEPLOY_CONFIG"
 else
