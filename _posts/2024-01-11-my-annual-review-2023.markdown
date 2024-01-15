@@ -16,7 +16,7 @@ toc: true
 
 2023 was my year of transitioning from chaotic adventures to habits and routines.
 
-I spent the first half of 2023 continuing my *bucket list phase* from 2022. A phase where I constantly try new things. Ticking off my childhood dreams one by one . 
+I spent the first half of 2023 continuing my [*bucket list phase*](/bucket-list-phase) from 2022. A phase where I constantly try new things. Ticking off my childhood dreams one by one . 
 
 Whether it's skydiving, co-piloting, scuba diving, freediving, surfing, windsurfing, glassblowing, sandboarding, snowboarding, or skiing — I tried it all. It was chaotic phase full of spontaneous adventure, but ultimately satisfying. 
 
@@ -310,6 +310,7 @@ Anyway, here are some of my goals for 2024:
 (The way I set goals is I try to set a specific goals with trackable metric and also the a system or daily action to achieve it.)
 
 #### Outcomes
+- Ship a product/Launch a SaaS business
 - 366 running day in a year
 - 1000km total year running mileage
 - Run a marathon
@@ -318,20 +319,20 @@ Anyway, here are some of my goals for 2024:
 - Complete Duolingo Arabic Course
 - Read 25 books & write the book reviews/summary
 - 50 blog posts
-- Ship a product/Launch a SaaS business
-- Be more social and build a friend group
+- Build my social and communication skills
 
 #### System
+- Work on building my own product x hour per day
 - Run minimum 1.6km or 1 mile every day
 - Workout 3x a week
 - Wake up early/Tahajud everyday
 - Duolingo everyday
 - Read everyday, 1 book every 2 week
-- Write 1 blogpost a week
+- Spend an hour writing every day, publish 1 blogpost a week
 - Toastmaster 2x a month, join running club/improv class
 - Initiate more 1-1 chats with people, at least once a month?
 
-I realize that it's a lot of goals and I may need to prioritize. So my main focus would be running, reading, writing, and working. If I feel overwhelmed at some point, then I may just drop the other goals.
+I realize that it's a lot of goals and I may need to prioritize. So my main focus would be working, running, reading, and, writing. If I feel overwhelmed at some point, then I may just drop the other goals.
 
 
 
