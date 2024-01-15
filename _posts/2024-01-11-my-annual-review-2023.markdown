@@ -16,7 +16,7 @@ toc: true
 
 2023 was my year of transitioning from chaotic adventures to habits and routines.
 
-I spent the first half of 2023 continuing my [*bucket list phase*](/bucket-list-phase) from 2022. A phase where I constantly try new things. Ticking off my childhood dreams one by one . 
+I spent the first half of 2023 continuing my [*bucket list phase*](/bucket-list-phase) from 2022. A phase where I constantly try new things.
 
 Whether it's skydiving, co-piloting, scuba diving, freediving, surfing, windsurfing, glassblowing, sandboarding, snowboarding, or skiing — I tried it all. It was chaotic phase full of spontaneous adventure, but ultimately satisfying. 
 
@@ -50,7 +50,7 @@ I had many first experiences in Japan. From experiencing my first snowfall and s
 
 Some memorable social interactions also happened in the trip. My favorite one was hiking together with a stranger after we helped each other take pictures. We even got a sakura flavored ice cream together at the end!
 
-I learned many things about traveling from the trip: 
+I learned many things from the trip: 
 - I learned more about planning (thanks r/JapanTravel) and applying for visa early. 
 - I became more confident in travelling solo, like staying in hostel and socializing with fellow travelers. 
 - I got used to walking far distance and started walking more after the trip
@@ -64,7 +64,7 @@ I learned to be more comfortable in spontaneity. And to practice the habit of se
 > Looking for the positive side of every challenge can become a habit, and so can finding the cloud in every silver lining.  
 > — Jeff Olson, The Slight Edge
 
-There were many other anecdotes that'd be too long to include. Instead, you can checkout my Japan trip post for more details on the activities, costs, etc. 
+There were many other anecdotes that'd be too long to include. Instead, you can checkout my Japan trip post in the future for more details on the activities, costs, etc. 
 
 #### Philippines: Whale Shark and Sardines
 
@@ -105,7 +105,7 @@ Another favorite creature I discovered was ghost shrimps, a shrimp with transpar
 
 My final adventure was a freediving trip in Tenggol island. 
 
-I've had few classes on freediving in the city and only need to do some final practice on the open water for the certificate. We would swim from the beach a bit far to the sea , with a life buoy on tow. Then we'll lower down a line from the buoy. The line will be used as assistance when freediving to the bottom. We will take turns freediving one by one. While we take our rest gasping for breaths, the instructor is diving tirelessly for our safety
+I've had few classes on freediving in the city and only need to do some final practice on the open water for the certificate. We would swim from the beach a bit far to the sea , with a life buoy on tow. Then we'll lower down a line from the buoy. The line will be used as assistance when freediving to the bottom. We will take turns freediving one by one. While we take our rest gasping for breaths, the instructor will diving tirelessly for our safety.
 
 On my first day, I struggled to equalize my ear. Equalizing your ear means pushing out air from your ear to balance the ear pressure to the water pressure at depth. I had no problem doing this normally, but cannot do so when I'm upside down. 
 
@@ -171,7 +171,7 @@ It's about reducing the friction to workout as much as possible. Doing a pull up
 
 However, I noticed that my posture is getting worse despite all the exercise I did. I had a slight Anterior Pelvic Tilt (APT). Although prolonged sitting may have affected this, I also suspected muscle imbalance may play a role. I thought so because I didn't do a full-body balanced workout routine. 
 
-My home workout mainly focused on weighted pull ups, with some ring dips, overhead press, and occasional pistol squats on the side. Thus, I have overdeveloped lats, minimal leg muscles, and less developed lower traps and rear delts.
+My home workout mainly focused on weighted pull ups, with some ring dips, overhead press, and occasional pistol squats on the side. Thus, I have overdeveloped lats compared to other muscles, minimal leg muscles, and less developed lower traps and rear delts.
 
 ![](attachment/018e0658417462b55fdefec15988097d.webp){: height="300" }
 
@@ -215,7 +215,7 @@ I'm also aware that chance of injury will increase by running everyday. So I mad
 4. Keep the pace slow most of the time. Only push hard once or twice a week.
 5. Slow down or do the minimum distance if I start feeling any slight pain
 
-With those rules, I managed to keep a 33 day run streak from 29 Nov until the end of the year. 
+With those rules, I managed to keep a 33 day run streak from 29 Nov until the end of the year. And still continuing the streak in the new year.
 
 ![](attachment/a1fe311e91b202918240d2577b2ab99b.webp)
 ## What didn't go well this year

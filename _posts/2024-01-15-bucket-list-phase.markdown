@@ -35,9 +35,7 @@ This is the common problem with bucket list. We list down big dreams and goals. 
 - Overthinking — We think all the excuses why it cannot be done like time and money (without actually researching).
 - Procrastination — We decide we will do it later (but actually never).
 
-A bias for action is the ability to overcome all this friction and go into action over inaction. 
-
-Increasing the speed between ideas and execution.
+A bias for action is the ability to overcome all this friction and go into action over inaction quickly. 
 
 > Don’t let fear dictate your decisions. Take risks and embrace the unknown.
 > Bill Perkins, Die With Zero
@@ -71,6 +69,8 @@ I would try to tick off a bucket list item every week. For each goal, I would re
 For example, there are many times where I saw an interesting activity ad, add it to my bucket list, booked the earliest possible date, and actually doing it — all in one week, or even a day.
 
 ### Optimizing for Experience
+
+The reason I'm doing some of my bucket list now is to optimize the experience.
 
 The idea to not delay my 'bucket list' anymore came to me after learning about time-bucket concept from the Die with Zero book.
 
@@ -129,7 +129,7 @@ There are few things I did when planning my bucket list phase: setting a time li
 
 Use hedonic treadmill to your advantage.
 
-Once your every week is full of thrilling and exciting adventure. Your baseline for happiness will increase. You will keep craving for next novel experience to stay happy. I use this craving as powerful motivator in taking actions for the next goal. However, when uncontrolled, you may end up endlessly seeking new experiences while ignoring other priorities in life.
+Once your every week is full of thrilling and exciting adventure, your baseline for happiness will increase. You will keep craving for next novel experience to stay happy. I use this craving as powerful motivator in taking actions for the next goal. However, when uncontrolled, you may end up endlessly seeking new experiences while ignoring other priorities in life.
 
 > The world has an effectively infinite number of experiences to offer, so getting a handful of them under your belt brings you no closer to a sense of having feasted on life’s possibilities. Instead, you find yourself pitched straight back into the efficiency trap. The more wonderful experiences you succeed in having, the more additional wonderful experiences you start to feel you could have, or ought to have, on top of all those you’ve already had,
 > - Oliver Burkeman, Four Thousand Weeks
