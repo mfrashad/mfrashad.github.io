@@ -55,7 +55,7 @@
       </head>
 <body>
     <nav class="flex fixed">
-        <h1 class="logo">RASHAD</h1>
+        <a href="/"><h1 class="logo">RASHAD</h1></a>
         <div class="link-wrap">
           <a href="/"><div class="page-link" dest="home">home</div></a>
           <a href="/#about"><div class="page-link" dest="about">about</div></a>
@@ -74,8 +74,12 @@
       <hr>
       {{ content | toc_only }}
     </div>
+    
+    
+    
     <div id="post-container" class="post-container">
-      <small>Published at {{ page.date | date: "%-d/%m/%Y" }}</small>
+      <a href="/blog"><i class="mdi mdi-arrow-left"></i>Blog</a>
+      <div><small>Published at {{ page.date | date: "%-d/%m/%Y" }}</small></div>
       {{ content | inject_anchors }}
     </div>
 </section>

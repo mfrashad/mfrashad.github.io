@@ -6,7 +6,7 @@ title: "Bucket List Phase: Practicing Bias for Action in Adventures"
 image: attachment/088be99867dcade04759a69d1e8e34e2.webp
 slug: bucket-list-phase
 author: Rashad
-excerpt: A 'bucket list phase' is a phase where I try to tick off as many bucket list items as possible in a short time period.I ticked off about 50+ things in my bucket list. From surfing, skydiving, scuba diving, freediving, co-piloting a plane, dancing, rock climbing, snowboarding, skiing, sandboarding, solo traveling etc in 1.5 year. I had three main reasons - to practice bias for action, to optimize experience, and to be adventurous.
+excerpt: A 'bucket list phase' is a phase where I try to rapidly tick off as many bucket list items as possible in a short time period.
 keywords: Bucket List, Adventure, Bias for Action, Life Design, Life Experiences
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 
 ## What I mean by Bucket List Phase
 
-A 'bucket list phase' is a phase where I try to tick off as many bucket list items as possible in a short time period. 
+A 'bucket list phase' is a phase where I try to rapidly tick off as many bucket list items as possible in a short time period. 
 
 The phase lasted for 1.5 years, and I ticked off about 50+ things in my bucket list. From surfing, skydiving, scuba diving, freediving, co-piloting a plane, dancing, rock climbing, snowboarding, skiing, sandboarding, solo traveling etc.
 
@@ -42,20 +42,40 @@ A bias for action is the ability to overcome all this friction and go into actio
 
 Fortunately, we can actually do something to reduce the uncertainty, fear, overthinking, and procrastination. Thus, improving our bias for action. Here are some ideas:
 
-- Uncertainty
-	- Gain clarity by planning and researching on how to do it. 
-	- Break the goal into small steps and plan the specific like when and where to do it.
-- Fear
-	- Identify the fear and inspect whether it is rational or irrational. We often have many bias that exaggerate the fear. 
-	- If it's valid fear, take a calculated risk and decide whether you actually want to do it.
-	- Face your fear gradually as exposure therapy
-- Overthinking
-	- Overthinking is often caused by fear and uncertainty. Identifying and resolving both with the above can help
-	- Clear & organize your thought with journaling. Avoid repetitive thinking and structure your thoughts. Then reflect on your thoughts whether it's rational or biased by emotion.
-- Procrastination
-	- We often procrastinate due to lack of clarity.
-	- Plan where and when to do it and commit.
-	- If you still never get motivated to do it. Then maybe you don't actually want to do it and just following what other people think it's cool. Re-evaluate your goals again.
+#### Uncertainty
+
+Gain clarity by planning and researching on how to do it. 
+
+Break the goal into small steps and plan the specific like when and where to do it.
+
+For example, flying a plane sounds like an impossible dream at first because of the cost. And after researching the cost for Private Pilot License, I indeed cannot afford it. But after further research, I found there is a One Day Pilot program where you can try experiencing co-piloting a plane for just RM800. There are also similar trial program to garner interest in aviation and being a pilot.
+
+
+#### Fear
+
+Identify the fear and inspect whether it is rational or irrational. We often have many bias that exaggerate the fear. 
+
+If it's valid fear, take a calculated risk and decide whether you actually want to do it.
+
+For example, skydiving sounds extremely dangerous. However, after looking at statistic, it can actually be safer than driving a car. Base jumping on the other hand has a pretty high rate of fatality. So I decided it's not worth the risk.
+
+Another advice is to face your fear gradually (exposure therapy).
+
+For example, if you have social anxiety. You don't have to go straight to talking publicly to thousands of people. You can gradually increase your exposure to your fear. Meet people without talking, then start talking to one person, then two, then three, and so on. Apply this to many things, whether it's dancing, performing, or diving.
+
+#### Overthinking
+
+Overthinking is often caused by fear and uncertainty. Identifying and resolving both with the above can help.
+
+Sometimes, overthinking makes things seems more difficult than it really is. This because thinking in our head is often biased with our fear and emotion.
+
+One thing I do to keep my thinking efficient and logical is to clear and organize my thoughts with journaling. I try to avoid repetitive thinking and structure my thoughts. Then reflect on my thoughts whether it's rational or biased by emotion.
+
+Overthinking can also cause procrastionation.
+
+We often procrastinate due to lack of clarity. So plan where and when to do it and commit.
+
+If you still never get motivated to do it. Then maybe you don't actually want to do it and just following what other people think it's cool. Re-evaluate your goals again.
 
 > "Let go of the need for approval from others. Live life on your own terms."
 > — Bill Perkins, Die With Zero
@@ -259,26 +279,24 @@ They would at least have a hobby on things I've tried before. I would have the m
 
 Although I didn't have a measured metric, I believe I've improved my bias to take action. This doesn't just mean being impulsive; rather, it's about thoughtful decisiveness. Instead of merely daydreaming about what could be, I've hopefully transitioned into someone who takes concrete steps to make things happen.
 
-It was a gradual process, fueled by each new experience. Every time I checked an item off my list, I reinforced a powerful internal narrative: I am someone who acts on my dreams. This mindset has been transformative, extending beyond adventure-seeking into my professional and personal life.
+It was a gradual process, fueled by each new experience. Every time I checked an item off my list, I reinforced a powerful internal narrative: I am someone who acts on my goals. This mindset has been transformative, extending beyond adventure-seeking into my professional and personal life.
 
-Moreover, this journey has significantly broadened my openness to new experiences. Previously, I might have hesitated or outright refused certain opportunities due to fear or uncertainty. Now, I find myself more willing to embrace unfamiliar situations. This isn't recklessness; it's a newfound appreciation for the richness and diversity of life's experiences.
+Moreover, this journey has significantly broadened my openness to new experiences. Previously, I might have hesitated or outright refused certain opportunities due to fear or uncertainty. Now, I find myself more willing to embrace unfamiliar situations.
 
 ## The Challenges I Faced
 
 One significant challenge was the planning and coordination required for each activity while still working to finance my activities. I had to put less focus on my career, taking less projects and working less hours to have the time do all my activities.
 
-There were times when I felt overwhelmed. Juggling multiple activities, along with my regular responsibilities. However, these challenges were integral to the learning process, teaching me valuable lessons in time management, resilience, and the importance of rest and recovery.
+There were times when I felt overwhelmed. Juggling multiple activities, along with my regular responsibilities. However, these challenges were integral to the learning process, teaching me valuable lessons in time management, resourcefulness, and how much I could actually do.
 
 ## Reflections and Future Plans
 
-Reflecting on this phase, I realize that I've not only accumulated a wealth of experiences but also grown immensely as a person. My perspectives have broadened, and my approach to life has become more proactive and dynamic.
+Now that I've experienced all kinds of hobbies and completed most of my short term goals. My focus will shift to work on my longer term goals in the future. Things that would needs years to complete.
 
-As I move forward, my focus will shift slightly. 
-
-While I'll continue to embrace new experiences, I also plan to delve deeper into a few select areas. This means potentially revisiting some past activities and honing my skills further, be it in a particular sport, art form, or any other domain that piqued my interest.
+While I'll continue to embrace new experiences, I plan to delve deeper into a few select areas that I find important. This means potentially revisiting some past activities and honing my skills further, be it in a particular sport, art form, or any other domain that piqued my interest.
 
 ## Final Thoughts
 
-If you're considering embarking on your own bucket list journey, my advice is to start small and gradually expand your horizons. It's not about ticking off a list for the sake of it, but about the growth and joy that comes from these experiences.
+If you're considering embarking on your own bucket list journey, my advice is to plan when, how, and why you are doing it. It's not about ticking off a list for the sake of it, but about the growth and joy that comes from these experiences.
 
 Remember, it's never too late to start. Whether you're in your 20s, 40s, or even older, there's a world of experiences waiting for you. So, what's on your bucket list? Start planning, set achievable goals, and most importantly, take action. Your future self will thank you for the memories, skills, and growth that come from living a life full of adventure and learning.

@@ -256,13 +256,13 @@ Once I recovered and finished my break. I started working again in July. But I s
 > Serving as your own boss, and doing so successfully, consistently, day in and day out, takes an uncommon degree of slight edge integrity, and frankly many business owners just don’t have it. They become intoxicated by the freedom of being their own boss and fail to maintain the kind of structure it takes to become successful.  
 > — Jeff Olson, The Slight Edge
 
-In summary, I only worked for about 6 months this year. A significant decrease of productivity than last year. I was also quite motivated to try launching a SaaS business this year after reading The Millionaire Fastlane book. Although, I did build few prototypes. I did not ship anything. I lacked the bias for action on top of my productivity issue.
+In summary, I only worked for about 6 months this year. A significant decrease of productivity than last year. I was also quite motivated to try launching a SaaS business this year after reading The Millionaire Fastlane book. Although, I did build few prototypes. I did not ship anything. I believe the issue was planning and prioritization. I'm still uncertain on how I'd best go for the business. And I'm also being distracted with working on too many goals, which results in lack of progress in some of them.
 
 What can I improve in the future?
 1. Schedule and time block deep work sessions. Make it a habit.
 2. Keep track of progress like work hours and streaks.
 3. Block all distractions during work sessions. Use tool like Rize.
-4. Consciously practice bias for action.
+4. Prioritize. Decide what I would want to give up.
 
 ### IV. Social Life
 
