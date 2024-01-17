@@ -6,7 +6,7 @@ title: "My Annual Review 2023: Travel & Habits"
 image: attachment/shadow-hill.webp
 slug: annual-review-2023
 author: Rashad
-excerpt: 2023 was my year of transition. Shifting from chaotic adventures to habits and routines. Read more to learn about my diving adventures, Japan trip, and my experience in forming good habits.
+excerpt: 2023 was year of transition. Shifting from chaotic adventures to routines. Read more to learn about my diving adventures, Japan trip, and my experience in forming good habits.
 keywords: 2023, Annual Review, Personal Growth, Adventure, Self-Improvement, Reflections, Highlights, Challenges, Goals, Habits, Achievements, Malaysia, KL
 toc: true
 ---

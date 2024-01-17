@@ -6,7 +6,7 @@ title: "Bucket List Phase: Practicing Bias for Action in Adventures"
 image: attachment/088be99867dcade04759a69d1e8e34e2.webp
 slug: bucket-list-phase
 author: Rashad
-excerpt: A 'bucket list phase' is a phase where I try to rapidly tick off as many bucket list items as possible in a short time period.
+excerpt: A phase where I try to rapidly tick off as many bucket list items as possible in a short time period.
 keywords: Bucket List, Adventure, Bias for Action, Life Design, Life Experiences
 toc: true
 ---
