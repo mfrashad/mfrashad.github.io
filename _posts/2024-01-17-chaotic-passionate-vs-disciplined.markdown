@@ -68,7 +68,7 @@ This is similar to how passion is described by Cal Newport.
 
 **Passion is a function of three things – autonomy, competence and purpose.**
 
-Games are often designed with these elements in mind, hence why it's so enjoyable. They have achievements (feedback), quest (clear goals), difficulty setting (balance). While work or other activities don't necessarily have these elements. 
+Games are often designed with these elements in mind, hence why it's so enjoyable. They have autonomy (no one forces you to play), achievements (feedback), quest (clear goals), difficulty setting (balance). While work or other activities don't necessarily have these elements. 
 
 **The solution is to introduce these elements to your activities or change your perspective of experiencing the activity itself.** 
 
