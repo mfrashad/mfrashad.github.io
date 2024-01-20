@@ -7,7 +7,7 @@ image:
 slug: heavy-lifts-and-slow-burns
 author: Rashad
 excerpt: How to prioritize your tasks based on the nature of your goals
-keywords: prioritize Design, Life Experiences
+keywords: prioritization, goals, focus, productivity
 toc: true
 ---
 
@@ -50,11 +50,11 @@ Thus, to maximize the progress with minimal effort, it makes more sense to only 
 
 ## How to Apply
 
-The common advice is to focus on a few things. This works well for heavy lift tasks. You can put in an enormous amount of work every day and progress rapidly. The fewer areas you focus on, the faster your progress in that area.
+The common advice is to focus on a few things. This works well for heavy lift tasks. The fewer areas you focus on, the faster your progress in that area.
 
-However, for slow burn tasks, they are well-suited for multitasking. It's feasible and often more productive to handle multiple slow-burn tasks concurrently. This way, you're effectively utilizing the downtime in one task (like recovery periods in muscle building) to progress in another.
+However, slow burn tasks are well-suited for multitasking. It's feasible and often more productive to handle multiple slow-burn tasks concurrently. This way, you're effectively utilizing the downtime in one task (like recovery periods in muscle building) to progress in another.
 
-So in my opinion, I agree that we should focus on as fewest heavy lift goals as possible, but we should start the slow burn goals early and as many as we can. 
+So in my opinion, I agree that we should focus on as fewest heavy lift goals as possible, but start the slow burn goals early and as many as we can. 
 
 The caveat though, slow burn goal can still distract us and make us do more effort than necessary. For example, even if creating and posting content only took 15 minutes, sometimes we still waste hours worrying or checking views. Or even if we only need a few hours working out, sometimes we end up wasting hours consuming fitness content because we were excited about it.
 

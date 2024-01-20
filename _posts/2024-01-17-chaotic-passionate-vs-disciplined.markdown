@@ -6,7 +6,7 @@ title: "Chaotic Passionate vs Disciplined"
 image:
 slug: chaotic-passionate-vs-disciplined
 author: Rashad
-excerpt: Discipline is the key to success. Let's pause and reflect on this notion. Is discipline really the only way to achieve success?
+excerpt: Is discipline really the only way to achieve success?
 keywords: Passion, Discipline, Flow
 toc: true
 ---
