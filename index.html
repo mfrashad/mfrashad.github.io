@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rashad's Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+  <!-- HOSTED -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+  <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+
+  <!-- LOCAL -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel='shortcut icon' href='favicon.png' type='image/png'/>
+
+  <!-- HOSTED -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+  
+
+  <meta property="og:title" content="Rashad's Portfolio" />
+  <!-- Name, not URL (e.g. Apple, not apple.com) -->
+  <!--meta property="og:site_name" content="" /-->
+  <!-- URL. Should match canonical URL for SEO. Unique identifier for your article. -->
+  <meta property="og:url" content="mfrashad.com" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="Rashad's personal website containing his blog, projects and experience" />
+  <!-- Image for article. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://mfrashad.github.io/img/og-image.webp" />
+
+  <meta name="referrer" content="origin">
+  <meta name="description" content="Rashad's personal website containing his blog, projects and experience">
+  <meta name="author" content="Rashad">
+  <meta name="keywords" content="personal website, blog, portfolio, resume, CV, Generative AI, ML engineer, freelancer, AI">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128948221-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-128948221-2');
+  </script>
+
+  <!-- LOCAL -->
+  <script src="scripts/pt.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/modal.js"></script>
+  <script src="scripts/typing.js"></script>
+
+</head>
+<body>
+<div class="overflow-wrap">
+
+<!-- HOME -->
+<div class="modal-wrap flex">
+  <div class="mask"></div>
+  <div class="modal" id="modal">
+    <div class="carousel-wrap">
+      <div class="window">
+        <div id="carousel">
+        <!--div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div-->
+        </div>
+        <i class="mdi mdi-chevron-left" id="prev"></i>
+        <i class="mdi mdi-chevron-right" id="next"></i>
+      </div>
+
+    </div>
+    <div class="info-box">
+      <div class="title"></div>
+      <div class="tag"></div>
+      <div><p class="detail"></p> </div>
+      <a href="index.html#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
+    </div>
+    <i class="close mdi mdi-close"></i>
+  </div>
+</div>
+
+<section id="home" class="flex height-fix">
+  <div id="pt" class="canvas"></div>
+  <div class="flex">
+
+    <div class="text">
+      Hello, I'm <span class="highlight">Rashad</span>.
+      <br>I'm a <span
+      class="txt-rotate"
+      data-period="1000"
+      data-rotate='[ "Machine Learning Engineer", "Full-Stack Developer", "Writer", "Speaker", "Diver", "Lifelong Learner"]'>Developer
+    </span>.
+    </div>
+
+    <div class="icon-wrap flex row">
+      <a href="https://www.linkedin.com/in/mfathyrashad" target="_blank">
+        <div class="flex icon" id="icon-1">
+          <i class="mdi mdi-linkedin"></i>
+        </div>
+      </a>
+      <a href="https://medium.com/@mfrashad" target="_blank">
+        <div class="flex icon" id="icon-2">
+          <i class="mdi mdi-medium"></i>
+        </div>
+      </a>
+      <a href="https://github.com/mfrashad" target="_blank">
+        <div class="flex icon" id="icon-3">
+          <i class="mdi mdi-github-circle"></i>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/rashadventure/" target="_blank">
+        <div class="flex icon" id="icon-4">
+          <i class="mdi mdi-instagram"></i>
+        </div>
+      </a>
+      <a href="https://twitter.com/mfathyrashad" target="_blank">
+        <div class="flex icon" id="icon-5">
+          <i class="mdi mdi-twitter"></i>
+        </div>
+      </a>
+    </div>
+
+    <a href="/CV-MUHAMMAD-FATHY-RASHAD.pdf" target="_blank"><div class="button page-link" dest="about">Download CV <i class="mdi mdi-arrow-right"></i></div></a>
+
+    <nav class="flex">
+  <h1 class="logo">RASHAD</h1>
+  <div class="link-wrap">
+    <div class="active page-link" dest="home">home</div>
+    <div class="page-link" dest="about">about</div>
+    <div class="page-link" dest="timeline">experience</div>
+    <div class="page-link" dest="blog">blog</div>
+    <div class="page-link" dest="portfolio">portfolio</div>
+    <div class="page-link" dest="experience">activity</div>
+    <div class="page-link" dest="testimonials">testimonials</div>
+    <div class="page-link" dest="media">media</div>
+    <div class="page-link" dest="contact">contact</div>
+  </div>
+  <i class="mdi mdi-menu"></i>
+</nav>
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container flex">
+
+    <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
+    <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+    <!-- <div class="flex row label-wrap">
+
+      
+      
+      <div class="flex row-gt-sm">
+        
+        
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="mdi mdi-memory"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold">Machine Learning </div>
+            <div>Python, Pytorch, Tensorflow
+ </div>
+          </div>
+        </div>
+        
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="mdi mdi-cellphone-link"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold">Web Development </div>
+            <div>Ruby on Rails, React, Node.js,<br>
+Flask, Flutter, GCP, Docker, Kubernetes
+ </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="flex row-gt-sm">
+        
+        
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="mdi mdi-brush"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold">Graphic Design </div>
+            <div>Photoshop, Illustrator, Adobe XD </div>
+          </div>
+        </div>
+        
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="mdi mdi-gamepad-variant"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold">Mobile Development </div>
+            <div>React Native, Flutter, Unity3D, C# </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div> -->
+
+    <div class="skills-wrapper flex wrap row-gt-sm">
+  <div class="flex row-gt-sm waypoint" data-animation="slide-in-left">
+    <!-- <img src="img/banner-navy.png" class="me"> -->
+    
+    <picture id="about-picture" class="me">
+      <source srcset="img/me-3-4-resized.webp" width="100px" media="(min-width: 500px)">
+      <img src="img/me-3-4-resized.jpg" width="100px" alt="My picture">
+    </picture>
+    <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+    
+    <div id="about-content">
+      <div class="label bold">About Me</div>
+      <div class="excerpt-container fade-effect">
+          <p id="excerpt">I'm a fullstack developer and ML engineer specializing in generative AI and computer vision. I co-authored a research paper with MIT in generative AI when I was 19  and worked in generative AI projects since then. I'm also a certified freediver and PADI rescue diver. I run, weightlift, climb, and write as a hobby. 
+ <br><br>At 15 years old, I skipped highschool and entered university as the youngest student. 
+ <br><br>At 17, I was the youngest software engineering intern at Fave and started f...</p>
+      </div>
+      <p class="full-content hidden">I'm a fullstack developer and ML engineer specializing in generative AI and computer vision. I co-authored a research paper with MIT in generative AI when I was 19  and worked in generative AI projects since then. I'm also a certified freediver and PADI rescue diver. I run, weightlift, climb, and write as a hobby. 
+ <br><br>At 15 years old, I skipped highschool and entered university as the youngest student. 
+ <br><br>At 17, I was the youngest software engineering intern at Fave and started freelancing as full-stack developer afterwards. 
+ <br><br>At 18, I started my own programming club, organized 7+ workshops, mentored students, and led several teams to competitions. 
+ <br><br>At 19, I co-authored a machine learning paper with MIT, have won 5+ hackathons, wrote 7+ technical blog articles with 100K+ total views, and also obtained 2 Microsoft certifications (Azure AI Engineer & Data Scientist Associate). <br><br>At 20, I graduated as valedictorian of my class with 4 academic awards and was awarded Top 10 Young Talent by MonStar Award out of 900+ nominees. 
+ <br><br>Since then, I freelanced as ML engineer/researcher specializing on generative AI with companies and individuals internationally. 
+</p>
+      <button class="read-more-btn" dest="about-picture">
+        Read More
+        <i class="mdi mdi-chevron-double-down page-link"></i>
+      </button>
+    </div>
+  </div>
+  
+
+  <!-- <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:80%;">
+          <div class="tag bold flex">HTML/CSS</div>
+        </div>
+        <span>Proficient</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:80%;">
+          <div class="tag bold flex">Python</div>
+        </div>
+        <span>Proficient</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:80%;">
+          <div class="tag bold flex">Javascript</div>
+        </div>
+        <span>Proficient</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:80%;">
+          <div class="tag bold flex">React</div>
+        </div>
+        <span>Proficient</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:50%;">
+          <div class="tag bold flex">Node.js</div>
+        </div>
+        <span>Familiar</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:80%;">
+          <div class="tag bold flex">Ruby/Rails</div>
+        </div>
+        <span>Proficient</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:80%;">
+          <div class="tag bold flex">Git</div>
+        </div>
+        <span>Proficient</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:50%;">
+          <div class="tag bold flex">C#/Unity3D</div>
+        </div>
+        <span>Familiar</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:80%;">
+          <div class="tag bold flex">Linux/Unix</div>
+        </div>
+        <span>Proficient</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:50%;">
+          <div class="tag bold flex">C/C++</div>
+        </div>
+        <span>Familiar</span>
+      </div>
+    
+      <div class="bar flex">
+        <div class="bar fill" style="width:80%;">
+          <div class="tag bold flex">Photoshop</div>
+        </div>
+        <span>Proficient</span>
+      </div>
+    
+  </div> -->
+</div>
+  </div>
+</section>
+
+<section id="timeline">
+    <div class="container flex">
+
+        <div class="header waypoint" data-animation="slide-in-left">EXPERIENCE</div>
+        <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+        <div class="flex label-wrap">
+
+            <div class="experience-timeline excerpt-container">
+                
+                <div data-date="Feb 2022 - Current">
+                    <h3>Rashad Labs</h3>
+                    <h4>Self-Employed</h4>
+                    <p>
+                        ● Freelancer/Contractor as ML Engineer specializing in Generative AI. <br>● Worked with individuals and companies internationally, including Idea Ink, Axentra Group, and Garven Labs. <br>● Python, PyTorch, React, Vercel, Gradio, Paypal API, Stripe API
+                    </p>
+                </div>
+                
+                <div data-date="Oct 2020 - Jul 2021">
+                    <h3>Massachusetts Institute of Technology</h3>
+                    <h4>Research Collaborator</h4>
+                    <p>
+                        ● Co-authored 'CreativeGAN' conference paper for ASME IDETC-CIE with MIT DeCoDE Lab. <br>● Trained segmentation, generative, and novelty detection networks on a new dataset and integrated the networks for creative bike design synthesis. <br>● Python, Tensorflow, PyTorch, OpenCV, High-Performance Computing (HPC)
+                    </p>
+                </div>
+                
+                
+            </div>
+            <div class="experience-timeline full-content hidden">
+                
+                <div data-date="Feb 2022 - Current">
+                    <h3>Rashad Labs</h3>
+                    <h4>Self-Employed</h4>
+                    <p>
+                        ● Freelancer/Contractor as ML Engineer specializing in Generative AI. <br>● Worked with individuals and companies internationally, including Idea Ink, Axentra Group, and Garven Labs. <br>● Python, PyTorch, React, Vercel, Gradio, Paypal API, Stripe API
+                    </p>
+                </div>
+                
+                <div data-date="Oct 2020 - Jul 2021">
+                    <h3>Massachusetts Institute of Technology</h3>
+                    <h4>Research Collaborator</h4>
+                    <p>
+                        ● Co-authored 'CreativeGAN' conference paper for ASME IDETC-CIE with MIT DeCoDE Lab. <br>● Trained segmentation, generative, and novelty detection networks on a new dataset and integrated the networks for creative bike design synthesis. <br>● Python, Tensorflow, PyTorch, OpenCV, High-Performance Computing (HPC)
+                    </p>
+                </div>
+                
+                <div data-date="Jun 2020 - Dec 2020">
+                    <h3>ViTrox Corporation</h3>
+                    <h4>Deep Learning Intern</h4>
+                    <p>
+                        ● Developed anomaly detection model for component defects with 90% accuracy. <br>● Implemented a few-shot classification model for electrical components <br>● Increased reporting efficiency by 30x by automating model performance report generation. <br>● Ported a web application for data labeling into a desktop application. <br>● Python, Django, PyTorch, Keras, JavaScript, Angular, Electron.js, Unix, Docker
+                    </p>
+                </div>
+                
+                <div data-date="Sep 2018 – Jun 2020">
+                    <h3>Freelance Developer</h3>
+                    <h4></h4>
+                    <p>
+                        ● Developed 6 websites, and 4 mobile apps for businesses/individuals. <br>● Python, Ruby on Rails, JavaScript, Node.js, React Native, HTML/CSS, GCP, AWS, Firebase
+                    </p>
+                </div>
+                
+                <div data-date="May 2018 - Aug 2018">
+                    <h3>Fave</h3>
+                    <h4>Software Engineer Intern</h4>
+                    <p>
+                        ● Fixed various bugs, wrote unit tests, and refactored a large Rails app. <br>● Increased reporting efficiency by 120x by automating PDF report generation. <br>● Ruby on Rails, PostgreSQL, AWS, Git, CI/CD, Sentry, JIRA, Agile, and Kanban
+                    </p>
+                </div>
+                
+                
+            </div>
+            <button class="read-more-btn" dest="timeline">
+                Read More
+                <i class="mdi mdi-chevron-double-down page-link"></i>
+              </button>
+        </div>
+</section>
+
+<section id="blog">
+  <div class="container flex">
+
+    <div class="header waypoint" data-animation="slide-in-left">TECH BLOG</div>
+    <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+    <div class="flex row wrap">
+      <div class="flex row-gt-sm wrap">
+        
+        <a href="https://towardsdatascience.com/how-i-built-an-ai-text-to-art-generator-a0c0f6d6f59f?sk=1b0c78bb5ad081313b6f77f7eae735dd" target="_blank">
+          <div class="blog-wrap" data-animation="fade-in">
+            <div class="fade-wrap">
+              <div class="thumb">
+                <video autoplay loop muted playsinline style="object-fit: cover; width: 100%; height: 100%;">
+                  <source src="img/blog/article1.webm" alt="article thumbnail" type="video/webm">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="label bold">How I built an AI Text-to-Art Generator</div>
+              <div class="date">2 October 2021 · 11 min read</div>
+              <div class="bar"></div>
+              <div class="text">
+                <p>A detailed, step-by-step write-up on how I built Text2Art.com
+                </p>
+              </div>
+              <div>
+                <i class="mdi mdi-thumb-up"></i> 1.5k
+              </div>
+            </div>
+          </div>
+        </a>
+        
+        <a href="https://towardsdatascience.com/how-to-train-stylegan2-ada-with-custom-dataset-dc268ff70544?sk=5dd819bff012f7d87737db3e47ca52ef" target="_blank">
+          <div class="blog-wrap" data-animation="fade-in">
+            <div class="fade-wrap">
+              <div class="thumb">
+                <video autoplay loop muted playsinline style="object-fit: cover; width: 100%; height: 100%;">
+                  <source src="img/blog/article2.webm" alt="article thumbnail" type="video/webm">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="label bold">How to Train StyleGAN2 with Custom Dataset</div>
+              <div class="date">8 June 2021 · 5 min read</div>
+              <div class="bar"></div>
+              <div class="text">
+                <p>Learn how to train an AI to generate any images you want
+                </p>
+              </div>
+              <div>
+                <i class="mdi mdi-thumb-up"></i> 123
+              </div>
+            </div>
+          </div>
+        </a>
+        
+        <a href="https://towardsdatascience.com/animating-yourself-as-a-disney-character-with-ai-78af337d4081?sk=75addc3aee5d96afa16a42f89252f631" target="_blank">
+          <div class="blog-wrap" data-animation="fade-in">
+            <div class="fade-wrap">
+              <div class="thumb">
+                <video autoplay loop muted playsinline style="object-fit: cover; width: 100%; height: 100%;">
+                  <source src="img/blog/article3.webm" alt="article thumbnail" type="video/webm">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="label bold">Animating Yourself as a Disney Character with AI</div>
+              <div class="date">27 October 2020 · 9 min read</div>
+              <div class="bar"></div>
+              <div class="text">
+                <p>Sneak peek into the future of digital arts
+                </p>
+              </div>
+              <div>
+                <i class="mdi mdi-thumb-up"></i> 234
+              </div>
+            </div>
+          </div>
+        </a>
+        
+        <a href="https://towardsdatascience.com/how-to-build-an-ai-fashion-designer-575b5e67915e?sk=34c34b521a9c71e1ed2f0f4efad4611b" target="_blank">
+          <div class="blog-wrap" data-animation="fade-in">
+            <div class="fade-wrap">
+              <div class="thumb">
+                <video autoplay loop muted playsinline style="object-fit: cover; width: 100%; height: 100%;">
+                  <source src="img/blog/article4.webm" alt="article thumbnail" type="video/webm">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="label bold">How to Build an AI Fashion Designer</div>
+              <div class="date">05 May 2022 · 12 min read</div>
+              <div class="bar"></div>
+              <div class="text">
+                <p>Clothing semantic editing for fashion design using StyleGAN and GANSpace
+                </p>
+              </div>
+              <div>
+                <i class="mdi mdi-thumb-up"></i> 277
+              </div>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+    <a href="https://medium.com/@mfrashad" target="_blank">
+      <button class="expand-button">
+        Visit Blog
+        <i class="mdi mdi-chevron-double-right page-link"></i>
+      </button>
+    </a>
+</section>
+
+<section id="personal-blog">
+  <div class="container flex">
+
+      <div class="header waypoint" data-animation="slide-in-left">PERSONAL BLOG</div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+      <div style="text-align: left; margin-bottom: 50px">
+          
+          <a href="/context-dependence-of-habit">
+              <p><strong>Notice the Context-Dependence of Your Habit</strong></p>
+              <span>20/01/2024</span>
+          </a>
+          
+          <a href="/on-social-needs-and-loneliness">
+              <p><strong>On Social Needs and Loneliness</strong></p>
+              <span>19/01/2024</span>
+          </a>
+          
+          <a href="/chaotic-passionate-vs-disciplined">
+              <p><strong>Chaotic Passionate vs Disciplined</strong></p>
+              <span>17/01/2024</span>
+          </a>
+          
+          <a href="/heavy-lifts-and-slow-burns">
+              <p><strong>Heavy Lifts and Slow Burns</strong></p>
+              <span>17/01/2024</span>
+          </a>
+          
+          <a href="/bucket-list-phase">
+              <p><strong>Bucket List Phase: Practicing Bias for Action in Adventures</strong></p>
+              <span>15/01/2024</span>
+          </a>
+          
+      </div>
+      <a href="/blog">
+        <button class="expand-button">
+          Read Blog
+          <i class="mdi mdi-chevron-double-right page-link"></i>
+        </button>
+      </a>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="flex" id="portfolio">
+
+  <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
+  <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+  <div class="filter-wrap waypoint" data-animation="fade-in">
+    <div class="flex row">
+      <div class="filter filter1" data-filter="all">ALL</div>
+      
+        <div class="filter filter1" data-filter=".ml">ML</div>
+      
+        <div class="filter filter1" data-filter=".web">WEB</div>
+      
+        <div class="filter filter1" data-filter=".mobile">MOBILE</div>
+      
+        <div class="filter filter1" data-filter=".electronics">ELECTRONICS</div>
+      
+    </div>
+    <div class="float-bar">
+      <div class="flex row">
+        <div class="filter filter1" data-filter="all">ALL</div>
+        
+          <div class="filter filter1" data-filter=".ml">ML</div>
+        
+          <div class="filter filter1" data-filter=".web">WEB</div>
+        
+          <div class="filter filter1" data-filter=".mobile">MOBILE</div>
+        
+          <div class="filter filter1" data-filter=".electronics">ELECTRONICS</div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery container flex row wrap waypoint collapsible">
+    
+      <div class="mix ml" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-creativegan.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">CreativeGAN</div>
+            <span class="highlight">Conference Paper</span>
+          </div>
+          <div class="button" id="creativegan">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix ml" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-gancreate.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">GANCREATE</div>
+            <span class="highlight">AI-Powered Animation Tool</span>
+          </div>
+          <div class="button" id="gancreate">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix ml" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-text2art.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Text2Art</div>
+            <span class="highlight">AI-Powered Text-to-Art Generator</span>
+          </div>
+          <div class="button" id="text2art">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix ml" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-clothinggan.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">ClothingGAN</div>
+            <span class="highlight">AI-Powered Fashion Design Generator</span>
+          </div>
+          <div class="button" id="clothinggan">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix electronics" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-aide_glass.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Aide Glass</div>
+            <span class="highlight">Transcribing Smart Glasses for Deaf People</span>
+          </div>
+          <div class="button" id="aide_glass">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix " data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-photosketch.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">PhotoSketch</div>
+            <span class="highlight">Transform Sketch to Playable Game</span>
+          </div>
+          <div class="button" id="photosketch">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix web" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-legacybrand.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Legacy Brand</div>
+            <span class="highlight">Product Subsription Store</span>
+          </div>
+          <div class="button" id="legacybrand">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix mobile" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-bustime.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Bustime</div>
+            <span class="highlight">Bus Live Tracker</span>
+          </div>
+          <div class="button" id="bustime">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix mobile" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-ioasis.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">iOASIS</div>
+            <span class="highlight">Library University App</span>
+          </div>
+          <div class="button" id="ioasis">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix web" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-istaid.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Istaid Center Website</div>
+            <span class="highlight">Blog Content Management System</span>
+          </div>
+          <div class="button" id="istaid">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix web" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-hazwan.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Hazwan & Alia Dental Clinic</div>
+            <span class="highlight">Dental Clinic Website</span>
+          </div>
+          <div class="button" id="hazwan">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix web" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-dscutp.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">DSC UTP</div>
+            <span class="highlight">Club Website</span>
+          </div>
+          <div class="button" id="dscutp">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix mobile" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-dot_hit.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Dot Hit!</div>
+            <span class="highlight">Android Game</span>
+          </div>
+          <div class="button" id="dot_hit">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix mobile" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-cube_runner.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Cube Runner</div>
+            <span class="highlight">Android Game</span>
+          </div>
+          <div class="button" id="cube_runner">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix electronics" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-robocon_robot.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Autonomous Line Following Catapult (Robocon)</div>
+            <span class="highlight">Arduino + C++</span>
+          </div>
+          <div class="button" id="robocon_robot">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix web" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-quote_generator.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Quote Generator</div>
+            <span class="highlight">Vanilla Javascript</span>
+          </div>
+          <div class="button" id="quote_generator">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix web" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-merchant_portal.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">Merchant Portal</div>
+            <span class="highlight">Rails + Postgresql</span>
+          </div>
+          <div class="button" id="merchant_portal">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix web" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-url_shortener.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">URL Shortener Microservice</div>
+            <span class="highlight">MongoDB + Express.js + Node.js</span>
+          </div>
+          <div class="button" id="url_shortener">LEARN MORE</div>
+        </div>
+      </div>
+    
+      <div class="mix web" data-my-order="1">
+        <div>
+          <div class="card" style="background: url('img/projects/thumb-twitchtv.webp') center center/cover;"></div>
+          <div class="text">
+            <div class="bold">TwitchTV Online Tracker</div>
+            <span class="highlight">Javascript + jQuery</span>
+          </div>
+          <div class="button" id="twitchtv">LEARN MORE</div>
+        </div>
+      </div>
+    
+  </div>
+  <button class="expand-button" dest="portfolio">
+    Show More
+    <i class="mdi mdi-chevron-double-down page-link"></i>
+  </button>
+</section>
+
+<section class="flex" id="experience">
+
+  <div class="header waypoint" data-animation="slide-in-right">ACTIVITY</div>
+  <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+  <div class="filter-wrap waypoint" data-animation="fade-in">
+    <div class="flex row">
+      <div class="filter filter2" data-filter="all">ALL</div>
+      
+      <div class="filter filter2" data-filter=".work">WORK</div>
+      
+      <div class="filter filter2" data-filter=".speaking">SPEAKING</div>
+      
+      <div class="filter filter2" data-filter=".competition">COMPETITION</div>
+      
+    </div>
+    <div class="float-bar">
+      <div class="flex row">
+        <div class="filter filter2" data-filter="all">ALL</div>
+        
+        <div class="filter filter2" data-filter=".work">WORK</div>
+        
+        <div class="filter filter2" data-filter=".speaking">SPEAKING</div>
+        
+        <div class="filter filter2" data-filter=".competition">COMPETITION</div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery container flex row wrap waypoint collapsible">
+    
+    <div class="mix work" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-mit_research.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">Research with MIT</div>
+          <span class="highlight">Research Collaborator & Paper Co-Author</span>
+        </div>
+        <div class="button" id="mit_research">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix speaking" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-dsc_flutter_1.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">Flutter Workshop</div>
+          <span class="highlight">Mentor + Speaker</span>
+        </div>
+        <div class="button" id="dsc_flutter_1">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix competition" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-ium2020.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">iUM Disrupt Hackathon 2020</div>
+          <span class="highlight">First Runner Up</span>
+        </div>
+        <div class="button" id="ium2020">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix speaking" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-dscutp_hack_intro.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">DSCUTP Flutter Workshop</div>
+          <span class="highlight">Invited Speaker</span>
+        </div>
+        <div class="button" id="dscutp_hack_intro">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix speaking" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-flutter_workshop2.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">Flutter Workshop 2</div>
+          <span class="highlight">Speaker</span>
+        </div>
+        <div class="button" id="flutter_workshop2">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix speaking" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-voi.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">Voice of Intern</div>
+          <span class="highlight">Invited Speaker</span>
+        </div>
+        <div class="button" id="voi">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix speaking" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-taces.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">T-ACES International Webinar</div>
+          <span class="highlight">Invited Speaker</span>
+        </div>
+        <div class="button" id="taces">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix competition" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-sedex42.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">42nd Science & Engineering Design Exhibition</div>
+          <span class="highlight">Chairman's Award</span>
+        </div>
+        <div class="button" id="sedex42">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix competition" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-dsckitahack.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">DSC Kita Hack</div>
+          <span class="highlight">Winner</span>
+        </div>
+        <div class="button" id="dsckitahack">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix speaking" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-dsc_github.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">DSC GitHub Workshop</div>
+          <span class="highlight">Speaker</span>
+        </div>
+        <div class="button" id="dsc_github">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix speaking" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-adc_github.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">UTP App Dev Club Git & GitHub Workshop</div>
+          <span class="highlight">Speaker</span>
+        </div>
+        <div class="button" id="adc_github">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix competition" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-lhdshare.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">Local Hack Day: Share</div>
+          <span class="highlight">Winner</span>
+        </div>
+        <div class="button" id="lhdshare">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix work" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-fave.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">Fave Internship</div>
+          <span class="highlight">Software Engineer Intern (Backend Team)</span>
+        </div>
+        <div class="button" id="fave">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix competition" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-robocon18.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">Robocon 2018</div>
+          <span class="highlight">Top 8 Team in Malaysia (Lead Programmer)</span>
+        </div>
+        <div class="button" id="robocon18">LEARN MORE</div>
+      </div>
+    </div>
+    
+    <div class="mix speaking" data-my-order="1">
+      <div>
+        <div class="card" style="background: url('img/experience/thumb-rpi_workshop.webp') center center/cover;"></div>
+        <div class="text">
+          <div class="bold">Raspberry Pi Workshop</div>
+          <span class="highlight">Mentor + Speaker</span>
+        </div>
+        <div class="button" id="rpi_workshop">LEARN MORE</div>
+      </div>
+    </div>
+    
+  </div>
+  <button class="expand-button" dest="experience">
+    Show More
+    <i class="mdi mdi-chevron-double-down page-link"></i>
+  </button>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container flex">
+
+    <div class="header waypoint" data-animation="slide-in-left">TESTIMONIALS</div>
+    <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+    <div class="flex row wrap waypoint" data-animation="slide-in-left">
+      <div class="flex row-gt-sm">
+        
+        <div class="testimonials-carousel">
+          <div class="testimonial-block"><img class="avatar" src="img/testimonial-0.webp" alt="profile picture of the person">
+            <blockquote>Rashad worked as a software developer intern in my team in Fave . His responsibilities were requirements gathering, analysis, design of features, fixing bugs and improving some parts of our codebase. During the course of his internship, he proved himself to be a fast learner. I was always impressed by his pull request descriptions. I found it very clear and it gave me enough context to understand what he was working on. He solves problems on his own and asks for feedback on how he can improve his skills in software development. With the right guidance, I'm pretty sure that he is going to be successful as a software developer.</blockquote>
+            <div class="label bold">Renlester Deguzman</div>
+            <p>Engineering Lead, Fave</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="media">
+    <div class="container flex">
+
+        <div class="header waypoint" data-animation="slide-in-left">MEDIA</div>
+        <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+        <div style="text-align: left;">
+            
+            <a href="https://www.utp.edu.my/Pages/Students/Student%20Development%20and%20Services/Stories/Fathy-Rashad-A-Self-Starter-Who-Creates-Opportunities-for-Himself.aspx">
+                <p>15/11/2021 - Fathy Rashad: A Self-Starter Who Creates Opportunities for Himself - <i>UTP</i></p>
+            </a>
+            
+            <a href="https://www.thestar.com.my/news/nation/2021/10/11/hard-work-pays-off">
+                <p>10/11/2021 - Hard work pays off - <i>The Star</i></p>
+            </a>
+            
+            <a href="https://www.hani.co.kr/arti/science/technology/1017393.html">
+                <p>01/11/2021 - 문장 입력하면 ‘그림 완성’ 인공지능 신세계 연다 - <i>Hankyoreh</i></p>
+            </a>
+            
+            <a href="media/theborneopost.pdf">
+                <p>30/10/2021 - UTP undergrad publishes joint conference paper with MIT - <i>The Borneo Post</i></p>
+            </a>
+            
+            <a href="media/sinchew.jpg">
+                <p>17/10/2021 - UTP學生姆哈末法迪國際工程^支術會議發表論文 - <i>Sin Chew Media Corporation</i></p>
+            </a>
+            
+            <a href="https://www.bernama.com/en/general/news.php?id=2008546">
+                <p>30/09/2021 - UTP Computer Engineering student publishes paper with MIT - <i>BERNAMA</i></p>
+            </a>
+            
+            <a href="https://books.google.com.my/books?id=ZVMXEAAAQBAJ&pg=PA265&lpg=PA265&dq=Robot+Design+Handbook,+Robocon+Malaysia+fathy+rashad&source=bl&ots=_SlqkDDV_m&sig=ACfU3U29pysf6--sR7Ipc1sE9wzcFP2rkg&hl=en&sa=X&ved=2ahUKEwirocrorMiDAxVuTmwGHTnMDFMQ6AF6BAgbEAM#v=onepage&q=Robot%20Design%20Handbook%2C%20Robocon%20Malaysia%20fathy%20rashad&f=false">
+                <p>03/01/2020 - Robot Design Handbook, Robocon Malaysia, 2019, Page 265 - <i>IIUM PRESS</i></p>
+            </a>
+            
+        </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+    <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+  </svg>
+  <div class="container flex">
+    <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
+    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+    <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question or want to work together?</div>
+    <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form" method="post" action="https://formspree.io/m.fathyrashad@gmail.com">
+      <input placeholder="Name" type="text" name="name" required>
+      <input placeholder="Enter email" type="email" name="email" required>
+      <textarea placeholder="Your Message" type="text" name="message"></textarea>
+      <div id="success">
+        <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
+      </div>
+      <input class="button" type="submit" id="submit" value=SUBMIT>
+    </form>
+  </div>
+</section>
+<footer>
+  <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+  <div class="icon-wrap flex row">
+    <a href="https://www.linkedin.com/in/mfathyrashad">
+      <div class="flex icon" id="icon-2">
+        <i class="mdi mdi-linkedin"></i>
+      </div>
+    </a>
+    <a href="https://github.com/mfrashad">
+      <div class="flex icon" id="icon-3">
+        <i class="mdi mdi-github-circle"></i>
+      </div>
+    </a>
+  </div>
+  <div class="info-box">
+    <!--div class="footnote"><span class="highlight">&copy;2015</span></div-->
+  </div>
+</footer>
+
+</div>
+
+<div id="preload">
+   <img src="img/me-3-4-resized.webp" alt="My picture"/>
+</div>
+
+</body>
+</html>
+
+<script src="scripts/canvas.js"></script>

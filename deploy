@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# Stop on error
+set -e
+# Fail on pipe errors
+set -o pipefail
+
+# Variables
+BRANCH="gh-pages"
+BRANCH_FROM="master"
+DEPLOY_CONFIG="_config-deploy.yml"
+
+# Get the current Git repository URL
+URL=$(git config --get remote.origin.url)
+if [ -z "$URL" ]; then
+    echo "Error: Not a Git repository or no remote set."
+    exit 1
+fi
+
+# Get the current working directory as the source
+SRC=$(pwd)
+
+# Create a temporary directory
+TEMP=$(mktemp -d -t jgd-XXX)
+
+# Function to clean up temporary directory on exit
+function cleanup {
+    rm -rf "$TEMP"
+}
+trap cleanup EXIT
+
+# Clone and copy directories
+CLONE="$TEMP/clone"
+# echo -e 'Cloning Github repository:'
+# git clone -b "$BRANCH_FROM" "$URL" "$CLONE"
+
+# Build Jekyll site
+
+echo -e '\nBuilding Jekyll site:'
+# rm -rf _site
+if [ -r "$SRC/$DEPLOY_CONFIG" ]; then
+    bundle exec jekyll build --config "$SRC/$DEPLOY_CONFIG"
+else
+    bundle exec jekyll build
+fi
+
+cp -r _site "$CLONE"
+cd "$CLONE"
+
+# Push _site to gh-pages branch
+touch .nojekyll
+git init
+git remote add origin "$URL"
+git checkout -b "$BRANCH"
+git add .
+git commit -m "Deploy Jekyll site"
+git push -u origin "$BRANCH" --force
+
+# echo "Jekyll site deployed to $BRANCH branch."

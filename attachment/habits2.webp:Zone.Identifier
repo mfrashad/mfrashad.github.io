@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/e131ef19-2a35-42d4-a3d4-50e617cdfa71/Screenshot_2024-01-11-18-01-22-419_org.isoron.uhabits.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240111%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240111T102743Z&X-Amz-Expires=86400&X-Amz-Signature=ab6a9c3593e5632874ad1967b879dd5c1e99b20693cb6f903e932edc0c6ef88a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Screenshot_2024-01-11-18-01-22-419_org.isoron.uhabits.webp%22&response-content-type=image%2Fwebp&x-id=GetObject
